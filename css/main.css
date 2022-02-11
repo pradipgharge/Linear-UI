@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(/css/utilities.css);
+@import url(/css/navbar.css);
+
+:root {
+    --primary-color: #2a3fb1;
+    --secondary-color: #D6D5F7;
+    --secondary-faded-color: #b9b7f0;
+    --primary-text-color: #170E60;
+    --secondary-text-color: #243D78;
+    --tertiary-text-color: #FFFFFF;
+}
