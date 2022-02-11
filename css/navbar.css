@@ -35,7 +35,10 @@
     font-size: 1.2rem;
     font-weight: 400;
     color: var(--secondary-text-color);
+}
 
+.nav-list a:hover{
+    color: var(--secondary-dark-color);
 }
 
 .nav-list {

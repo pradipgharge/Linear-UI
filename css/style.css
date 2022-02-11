@@ -68,11 +68,22 @@ body {
     color: var(--secondary-color);
 }
 
+.btn-primary:hover{
+    background-color: var(--secondary-dark-color);
+    color: var(--primary-text-color);
+    border: 1px solid var(--secondary-dark-color);
+}
+
 .btn-secondary {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
+
+.btn-secondary:hover{
+    background-color: var(--primary-color);
+    color: var(--tertiary-text-color);
+}   
 
 .hero-right img {
     max-width: 100%;
