@@ -2,12 +2,20 @@
 @import url(/css/utilities.css);
 @import url(/css/navbar.css);
 
-:root {
+
+:root{
     --primary-color: #2a3fb1;
     --secondary-color: #D6D5F7;
-    --secondary-dark-color:#9794e9;
-    --secondary-faded-color: #b9b7f0;
+    --secondary-color-dark:#9794e9;
+    --sidebar-color:#bdbbe6;
+    --sidebar-hover-color:#e9e1e1;
+    --secondary-faded-color:#b9b7f0;
     --primary-text-color: #170E60;
-    --secondary-text-color: #243D78;
+    --secondary-text-color:#243D78;
     --tertiary-text-color: #FFFFFF;
+    --light-blue-color:#79d1fa;
+    --light-green-color:#36d69b;
+    --light-red-color:#e92c2c;
+    --light-yellow-color:#fadc44;
+    --highlight-text-color:#f7e8e8;
 }
