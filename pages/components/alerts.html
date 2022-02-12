@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Highlightjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+        integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/pages/components/alerts.css">
+    <title>Linear UI | Alerts</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container container">
+            <div>
+                <a href="/index.html">
+                    <span class="brandname-title">Linear UI</span>
+                </a>
+                <span class="brandname-subtext">v1.0</span>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="/pages/components/alerts.html">Docs</a>
+                </li>
+                <li>
+                    <a href="https://github.com/pradipgharge">Github</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/pradipgharge">Twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="docspage-container ">
+        <div class="docs-hero-container container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Get Started</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="#">Installation</a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/alerts.html">Alert</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Avatar</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Badge</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Button</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Card</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Image</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Input</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Modal</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Typography</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Toast</a>
+                    </li>
+                </ul>
+            </aside>
+            <main class="docs-main-container">
+                <div class="docs-hero-header">
+                    <h1 class="docs-hero-heading">Alert</h1>
+                    <p class="docs-hero-para">
+                        Alerts are used to attract user's attention for important information
+                        without interrupting the user's flow.<br />To use any alert component add the class
+                        <span class="text-bold">alert</span> followed by the variant name.
+                    </p>
+                </div>
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Standard Alerts</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">alert-info</span>, <span class="variant-item">alert-success</span>,
+                        <span class="variant-item">alert-error</span> and
+                        <span class="variant-item">alert-warning.</span>
+                    </p>
+                </div>
+                <div class="component-preview">
+                    <div class="alert alert-info">
+                        <img src="/Assets/icons/info-alert.svg" alt="alert icon"><span class="alert-text">This is an
+                            Info alert.</span><button class="close-btn">x</button>
+                    </div>
+                    <div class="alert alert-success">
+                        <img src="/Assets/icons/succes-alert.svg" alt="alert icon"><span class="alert-text">This is a
+                            Success alert.</span><button class="close-btn">x</button>
+                    </div>
+                    <div class="alert alert-error">
+                        <img src="/Assets/icons/error-alert.svg" alt="alert icon"><span class="alert-text">This is an
+                            Error alert.</span><button class="close-btn">x</button>
+                    </div>
+                    <div class="alert alert-warning">
+                        <img src="/Assets/icons/warning-alert.svg" alt="alert icon"><span class="alert-text">This is a
+                            Warning alert.</span><button class="close-btn">x</button>
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                            &lt;div class="alert alert-info"&gt;
+                                &lt;img src="/Assets/icons/info-alert.svg" alt="alert icon"&gt;&lt;span class="alert-text"&gt;This is an
+                                    Info alert.&lt;/span&gt;&lt;button class="close-btn"&gt;x&lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class="alert alert-success"&gt;
+                                &lt;img src="/Assets/icons/succes-alert.svg" alt="alert icon"&gt;&lt;span class="alert-text"&gt;This is a
+                                    Success alert.&lt;/span&gt;&lt;button class="close-btn"&gt;x&lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class="alert alert-error"&gt;
+                                &lt;img src="/Assets/icons/error-alert.svg" alt="alert icon"&gt;&lt;span class="alert-text"&gt;This is an
+                                    Error alert.&lt;/span&gt;&lt;button class="close-btn"&gt;x&lt;/button&gt;
+                            &lt;/div&gt;
+                            &lt;div class="alert alert-warning"&gt;
+                                &lt;img src="/Assets/icons/warning-alert.svg" alt="alert icon"&gt;&lt;span class="alert-text"&gt;This is a
+                                    Warning alert.&lt;/span&gt;&lt;button class="close-btn"&gt;x&lt;/button&gt;
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+            </main>
+        </div>
+
+    </section>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
