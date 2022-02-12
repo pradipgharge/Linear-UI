@@ -1,0 +1,56 @@
+@import url(/css/main.css);
+
+.component-preview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 1px solid var(--secondary-faded-color);
+    border-radius: 8px;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding: 0.8rem 1rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.alert-info {
+    background-color: var(--light-blue-color);
+}
+
+.alert-success {
+    background-color: var(--light-green-color);
+}
+
+.alert-error {
+    background-color: var(--light-red-color);
+}
+
+.alert-warning {
+    background-color: var(--light-yellow-color);
+}
+
+.alert-text {
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+.close-btn {
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 1rem;
+    background: none;
+    border: none;
+}
+
+.code-snippet {
+    border-radius: 8px;
+}
