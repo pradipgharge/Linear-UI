@@ -41,7 +41,7 @@
 }
 
 .sidebar-list-item{
-    padding: 0.6rem 1rem;
+    padding: 10px 1rem;
     border-radius: 5px;
     transition: all 0.2s;
 }
