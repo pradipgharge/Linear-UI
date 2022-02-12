@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Highlightjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+        integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/pages/components/Avatar/avatar.css">
+    <title>Linear UI| Avatar</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container container">
+            <div>
+                <a href="/index.html">
+                    <span class="brandname-title">Linear UI</span>
+                </a>
+                <span class="brandname-subtext">v1.0</span>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="/pages/components/Avatar/avatar.html">Docs</a>
+                </li>
+                <li>
+                    <a href="https://github.com/pradipgharge">Github</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/pradipgharge">Twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="docspage-container ">
+        <div class="docs-hero-container container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Get Started</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="#">Installation</a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Alerts/alerts.html">Alert</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Badge</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Button</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Card</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Image</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Input</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Modal</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Typography</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Toast</a>
+                    </li>
+                </ul>
+            </aside>
+            <main class="docs-main-container">
+                <div class="docs-hero-header">
+                    <h1 class="docs-hero-heading">Avatar</h1>
+                    <p class="docs-hero-para">
+                        Avatars can be used to show user's profile picture on profile information pages, on navigation
+                        bars, in blogs etc. Avatars come in different shapes and sizes across the web.<br /><br />To use
+                        any avatar component add the class
+                        <b>avatar</b>, followed by the variant class name.
+                    </p>
+                </div>
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Profile Avatars</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">avatar-xxl</span>, <span class="variant-item">avatar-xl</span>, <span
+                            class="variant-item">avatar-lg</span>,
+                        <span class="variant-item">avatar-md</span>, <span class="variant-item">avatar-sm</span> & <span
+                            class="variant-item">avatar-xs.</span>
+                    </p>
+                </div>
+                <div class="avatar-preview-container">
+                    <div class="avatar avatar-xxl">
+                        <img class="avatar-img" src="/Assets/images/Avatar-01.svg" alt="avatar img">
+                    </div>
+                    <div class="avatar avatar-xl">
+                        <img class="avatar-img" src="/Assets/images/Avatar-02.svg" alt="avatar img">
+                    </div>
+                    <div class="avatar avatar-lg">
+                        <img class="avatar-img" src="/Assets/images/Avatar-03.svg" alt="avatar img">
+                    </div>
+                    <div class="avatar avatar-md">
+                        <img class="avatar-img" src="/Assets/images/Avatar-04.svg" alt="avatar img">
+                    </div>
+                    <div class="avatar avatar-sm">
+                        <img class="avatar-img" src="/Assets/images/Avatar-05.svg" alt="avatar img">
+                    </div>
+                    <div class="avatar avatar-xs">
+                        <img class="avatar-img" src="/Assets/images/Avatar-06.svg" alt="avatar img">
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;div class="avatar avatar-xxl"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-01.svg" alt="avatar img"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-xl"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-02.svg" alt="avatar img"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-lg"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-03.svg" alt="avatar img"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-md"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-04.svg" alt="avatar img"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-sm"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-05.svg" alt="avatar img"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-xs"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-06.svg" alt="avatar img"&gt;
+                                &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Text Avatars</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">avatar-xxl</span>, <span class="variant-item">avatar-xl</span>, <span
+                            class="variant-item">avatar-lg</span>,
+                        <span class="variant-item">avatar-md</span>, <span class="variant-item">avatar-sm</span> & <span
+                            class="variant-item">avatar-xs.</span>
+                    </p>
+                </div>
+                <div class="avatar-preview-container">
+                    <div class="avatar avatar-xxl avatar-text">PG</div>
+                    <div class="avatar avatar-xl avatar-text">PG</div>
+                    <div class="avatar avatar-lg avatar-text">PG</div>
+                    <div class="avatar avatar-md avatar-text">PG</div>
+                    <div class="avatar avatar-sm avatar-text">PG</div>
+                    <div class="avatar avatar-xs avatar-text">PG</div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;div class="avatar avatar-xxl avatar-text"&gt;PG&lt;/div&gt;
+                                &lt;div class="avatar avatar-xl avatar-text"&gt;PG&lt;/div&gt;
+                                &lt;div class="avatar avatar-lg avatar-text"&gt;PG&lt;/div&gt;
+                                &lt;div class="avatar avatar-md avatar-text"&gt;PG&lt;/div&gt;
+                                &lt;div class="avatar avatar-sm avatar-text"&gt;PG&lt;/div&gt;
+                                &lt;div class="avatar avatar-xs avatar-text"&gt;PG&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Square Avatars</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">avatar-xxl</span>, <span class="variant-item">avatar-xl</span>, <span
+                            class="variant-item">avatar-lg</span>,
+                        <span class="variant-item">avatar-md</span>, <span class="variant-item">avatar-sm</span> & <span
+                            class="variant-item">avatar-xs.</span>
+                    </p>
+                </div>
+                <div class="avatar-preview-container">
+                    <div class="avatar avatar-xxl avatar-sq">
+                        <img class="avatar-img" src="/Assets/images/Avatar-01.svg" alt="alert icon">
+                    </div>
+                    <div class="avatar avatar-xl avatar-sq">
+                        <img class="avatar-img" src="/Assets/images/Avatar-02.svg" alt="alert icon">
+                    </div>
+                    <div class="avatar avatar-lg avatar-sq">
+                        <img class="avatar-img" src="/Assets/images/Avatar-03.svg" alt="alert icon">
+                    </div>
+                    <div class="avatar avatar-md avatar-sq">
+                        <img class="avatar-img" src="/Assets/images/Avatar-04.svg" alt="alert icon">
+                    </div>
+                    <div class="avatar avatar-sm avatar-sq">
+                        <img class="avatar-img" src="/Assets/images/Avatar-05.svg" alt="alert icon">
+                    </div>
+                    <div class="avatar avatar-xs avatar-sq">
+                        <img class="avatar-img" src="/Assets/images/Avatar-06.svg" alt="alert icon">
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;div class="avatar avatar-xxl avatar-sq"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-01.svg" alt="alert icon"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-xl avatar-sq"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-02.svg" alt="alert icon"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-lg avatar-sq"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-03.svg" alt="alert icon"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-md avatar-sq"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-04.svg" alt="alert icon"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-sm avatar-sq"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-05.svg" alt="alert icon"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="avatar avatar-xs avatar-sq"&gt;
+                                    &lt;img class="avatar-img" src="/Assets/images/Avatar-06.svg" alt="alert icon"&gt;
+                                &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+            </main>
+        </div>
+
+    </section>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>

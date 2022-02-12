@@ -3,19 +3,121 @@
 @import url(/css/navbar.css);
 
 
-:root{
+:root {
     --primary-color: #2a3fb1;
     --secondary-color: #D6D5F7;
-    --secondary-color-dark:#9794e9;
-    --sidebar-color:#bdbbe6;
-    --sidebar-hover-color:#e9e1e1;
-    --secondary-faded-color:#b9b7f0;
+    --secondary-color-dark: #9794e9;
+    --sidebar-color: #bdbbe6;
+    --sidebar-hover-color: #e9e1e1;
+    --secondary-faded-color: #b9b7f0;
     --primary-text-color: #170E60;
-    --secondary-text-color:#243D78;
+    --secondary-text-color: #243D78;
     --tertiary-text-color: #FFFFFF;
-    --light-blue-color:#79d1fa;
-    --light-green-color:#36d69b;
-    --light-red-color:#e92c2c;
-    --light-yellow-color:#fadc44;
-    --highlight-text-color:#f7e8e8;
+    --light-blue-color: #79d1fa;
+    --light-green-color: #36d69b;
+    --light-red-color: #e92c2c;
+    --light-yellow-color: #fadc44;
+    --highlight-text-color: #f7e8e8;
+}
+
+
+.docspage-container {
+    background-color: var(--secondary-color);
+}
+
+.docs-hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.sidebar {
+    flex-basis: 250px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5px;
+    padding: 2rem;
+    background-color: var(--sidebar-color);
+}
+
+.sidebar-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.sidebar-list {
+    display: flex;
+    font-size: 1.1rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sidebar-list a {
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+
+.sidebar-list-item {
+    padding: 10px 1rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.sidebar-list-item:hover {
+    background-color: var(--sidebar-hover-color);
+}
+
+.docs-main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.docs-hero-header {
+    margin-bottom: 0.8rem;
+}
+
+.docs-hero-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.docs-hero-para {
+    line-height: 1.4rem;
+    padding-top: 0.5rem;
+    color: var(--secondary-text-color);
+}
+
+.component-varaint-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--primary-text-color);
+}
+
+
+.variant-item {
+    background-color: var(--primary-text-color);
+    color: var(--highlight-text-color);
+    padding: 2px 4px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+}
+
+.variant-specifier {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+}
+
+.code-snippet {
+    border-radius: 8px;
+    font-size: 12px;
 }
