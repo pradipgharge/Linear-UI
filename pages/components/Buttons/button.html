@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Highlightjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+    integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="button.css"></link>
+    <title>Linear UI | Button</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container container">
+            <div>
+                <a href="/index.html">
+                    <span class="brandname-title">Linear UI</span>
+                </a>
+                <span class="brandname-subtext">v1.0</span>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="/pages/components/Buttons/button.html">Docs</a>
+                </li>
+                <li>
+                    <a href="https://github.com/pradipgharge">Github</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/pradipgharge">Twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="docspage-container ">
+        <div class="docs-hero-container container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Get Started</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="#">Installation</a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Alerts/alerts.html">Alert</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Buttons/button.html">Button</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Card</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Image</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Input</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Modal</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Typography</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Toast</a>
+                    </li>
+                </ul>
+            </aside>
+            <main class="docs-main-container">
+                <div class="docs-hero-header">
+                    <h1 class="docs-hero-heading">Button</h1>
+                    <p class="docs-hero-para">Badges are used to highlight a user's status or an item's count for quick
+                        recognition.<br /><br />To use any badge component add the class
+                        <b>badge</b>, followed by the variant class names.
+                    </p>
+                </div>
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Solid Buttons</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">btn-solid-primary</span>, <span
+                            class="variant-item">btn-solid-secondary</span>,
+                        <span class="variant-item">btn-solid-danger</span> & <span
+                            class="variant-item">btn-solid-disabled</span>
+                    </p>
+                </div>
+                <div class="buttons-preview-container">
+                    <button class="btn btn-solid-primary">Primary</button>
+                    <button class="btn btn-solid-secondary">Secondary</button>
+                    <button class="btn btn-solid-danger">Danger</button>
+                    <button class="btn btn-solid-disabled">Disabled</button>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;button class="btn btn-solid-primary"&gt;Primary&lt;/button&gt;
+                                &lt;button class="btn btn-solid-secondary"&gt;Secondary&lt;/button&gt;
+                                &lt;button class="btn btn-solid-danger"&gt;Danger&lt;/button&gt;
+                                &lt;button class="btn btn-solid-disabled"&gt;Disabled&lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Outline Buttons</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">btn-outline-primary</span>, <span
+                            class="variant-item">btn-outline-secondary</span>,
+                        <span class="variant-item">btn-outline-danger</span> & <span
+                            class="variant-item">btn-outline-disabled</span>
+                    </p>
+                </div>
+                <div class="buttons-preview-container">
+                    <button class="btn btn-outline-primary">Primary</button>
+                    <button class="btn btn-outline-secondary">Secondary</button>
+                    <button class="btn btn-outline-danger">Danger</button>
+                    <button class="btn btn-outline-disabled">Disabled</button>
+
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;button class="btn btn-outline-primary"&gt;Primary&lt;/button&gt;
+                                &lt;button class="btn btn-outline-secondary"&gt;Secondary&lt;/button&gt;
+                                &lt;button class="btn btn-outline-danger"&gt;Danger&lt;/button&gt;
+                                &lt;button class="btn btn-outline-disabled"&gt;Disabled&lt;/button&gt;
+                            </code>
+                    </pre>
+                </div>
+
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Icon Buttons</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">btn-solid-primary</span>, <span
+                            class="variant-item">btn-solid-secondary</span>,
+                        <span class="variant-item">btn-solid-danger</span> & <span
+                            class="variant-item">btn-solid-disabled</span>
+                    </p>
+                </div>
+                <div class="buttons-preview-container">
+
+                    <button class="btn btn-icon btn-solid-primary">
+                        <img class="btn-icon-img" src="/Assets/icons/btn-cart.svg" alt="icon">
+                        <span>Add to cart</span>
+                    </button>
+
+
+                    <button class="btn btn-icon btn-solid-secondary">
+                        <img class="btn-icon-img" src="/Assets/icons/btn-heart.svg" alt="icon">
+                        <span>Like</span>
+                    </button>
+
+
+                    <button class="btn btn-icon btn-solid-danger">
+                        <img class="btn-icon-img" src="/Assets/icons/btn-trash.svg" alt="icon">
+                        <span>Delete</span>
+                    </button>
+
+
+                    <button class="btn btn-icon btn-solid-disabled">
+                        <img class="btn-icon-img" src="/Assets/icons/btn-save.svg" alt="icon">
+                        <span>Save</span>
+                    </button>
+
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                
+                                    &lt;button class="btn btn-icon btn-solid-primary"&gt;
+                                        &lt;img class="btn-icon-img" src="/Assets/icons/btn-cart.svg" alt="icon"&gt;
+                                        &lt;span&gt;Add to cart&lt;/span&gt;
+                                    &lt;/button&gt;
+                                    &lt;button class="btn btn-icon btn-solid-secondary"&gt;
+                                        &lt;img class="btn-icon-img" src="/Assets/icons/btn-heart.svg" alt="icon"&gt;
+                                        &lt;span&gt;Like&lt;/span&gt;
+                                    &lt;/button&gt;
+                                    &lt;button class="btn btn-icon btn-solid-danger"&gt;
+                                        &lt;img class="btn-icon-img" src="/Assets/icons/btn-trash.svg" alt="icon"&gt;
+                                        &lt;span&gt;Delete&lt;/span&gt;
+                                    &lt;/button&gt;
+                                    &lt;button class="btn btn-icon btn-solid-disabled"&gt;
+                                        &lt;img class="btn-icon-img" src="/Assets/icons/btn-save.svg" alt="icon"&gt;
+                                        &lt;span&gt;Save&lt;/span&gt;
+                                    &lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Floating Action Buttons</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">btn-solid-primary</span>, <span
+                            class="variant-item">btn-solid-secondary</span>,
+                        <span class="variant-item">btn-solid-danger</span> & <span
+                            class="variant-item">btn-solid-disabled</span>
+                    </p>
+                </div>
+                <div class="buttons-preview-container">
+                    <button class="btn btn-float btn-solid-primary">
+                        <img src="/Assets/icons/plus-square.svg" alt="icon">
+                    </button>
+                    <button class="btn btn-float btn-solid-secondary">
+                        <img src="/Assets/icons/btn-phone.svg" alt="icon">
+                    </button>
+                    <button class="btn btn-float btn-solid-danger">
+                        <img src="/Assets/icons/btn-share.svg" alt="icon">
+                    </button>
+                    <button class="btn btn-float btn-solid-disabled">
+                        <img src="/Assets/icons/btn-pencil.svg" alt="icon">
+                    </button>
+                </div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                    &lt;button class="btn btn-float btn-solid-primary"&gt;
+                                        &lt;img src="/Assets/icons/plus-square.svg" alt="icon"&gt;
+                                    &lt;/button&gt;
+                                    &lt;button class="btn btn-float btn-solid-secondary"&gt;
+                                        &lt;img src="/Assets/icons/btn-phone.svg" alt="icon"&gt;
+                                    &lt;/button&gt;
+                                    &lt;button class="btn btn-float btn-solid-danger"&gt;
+                                        &lt;img src="/Assets/icons/btn-share.svg" alt="icon"&gt;
+                                    &lt;/button&gt;
+                                    &lt;button class="btn btn-float btn-solid-disabled"&gt;
+                                        &lt;img src="/Assets/icons/btn-pencil.svg" alt="icon"&gt;
+                                    &lt;/button&gt;
+                            </code>
+                    </pre>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
