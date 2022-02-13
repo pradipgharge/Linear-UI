@@ -1,0 +1,90 @@
+@import url(/css/main.css);
+@import url(/pages/components/Avatar/avatar.css);
+
+
+.badge-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    border: 1px solid var(--secondary-faded-color);
+    border-radius: 8px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.badge {
+    position: relative;
+    width: max-content;
+}
+
+.bd-xl {
+    width: 8rem;
+    height: 8rem;
+}
+
+.bd-lg {
+    width: 5rem;
+    height: 5rem;
+}
+
+.bd-md {
+    width: 4rem;
+    height: 4rem;
+}
+
+.bd-sm {
+    width: 2rem;
+    height: 2rem;
+}
+
+.badge-icon {
+    width: 100%;
+    height: auto;
+}
+
+.bd-count {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    align-items: center;
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    width: 25%;
+    height: 25%;
+    min-height: 14px;
+    min-width: 14px;
+    border-radius: 50%;
+    color: var(--tertiary-text-color);
+    background-color: var(--light-red-color);
+}
+
+.bd-status {
+    position: absolute;
+    right: 2px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+    font-size: 10px;
+    width: 25%;
+    height: 25%;
+    min-height: 14px;
+    min-width: 14px;
+}
+
+.bd-online {
+    background-color: var(--medium-green-color);
+}
+
+.bd-offline {
+    background-color: var(--light-red-color);
+}
+
+.bd-idle {
+    background-color: var(--medium-yellow-color);
+}
+
+.bd-dnd {
+    background-color: var(--light-gray-color);
+}

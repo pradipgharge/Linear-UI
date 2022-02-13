@@ -19,7 +19,6 @@
     background-color: var(--primary-text-color);
     border-radius: 50%;
     object-fit: cover;
-    overflow: hidden;
 }
 
 .avatar-xxl {
