@@ -5,10 +5,14 @@
 
 .header {
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     background-color: var(--secondary-color);
 }
 
+
+.header-fixed{
+    position: fixed;
+}
 .nav-container {
     display: flex;
     flex-wrap: wrap;
