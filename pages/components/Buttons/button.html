@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header header-fixed">
         <nav class="nav-container container">
             <div>
                 <a href="/index.html">
@@ -37,7 +37,7 @@
     </header>
 
     <section class="docspage-container ">
-        <div class="docs-hero-container container">
+        <div class=" container">
             <aside class="sidebar">
                 <div class="sidebar-heading">Get Started</div>
                 <ul class="sidebar-list">
@@ -142,12 +142,55 @@
                     </pre>
                 </div>
 
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Link Buttons</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">btn-link-primary</span>, <span
+                            class="variant-item">btn-link-secondary</span>,
+                        <span class="variant-item">btn-link-danger</span> & <span
+                            class="variant-item">btn-link-disabled</span>
+                    </p>
+                </div>
+                <div class="buttons-preview-container">
+                    <a href="#">
+                        <button class="btn btn-link-primary">Primary</button>
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-link-secondary">Secondary</button>
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-link-danger">Danger</button>
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-link-disabled">Disabled</button>
+                    </a>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;a href="/"&gt;
+                                    &lt;button class="btn btn-link-primary"&gt;Primary&lt;/button&gt;
+                                &lt;/a&gt;
+                                &lt;a href="/"&gt;
+                                    &lt;button class="btn btn-link-secondary"&gt;Secondary&lt;/button&gt;
+                                &lt;/a&gt;
+                                &lt;a href="/"&gt;
+                                    &lt;button class="btn btn-link-danger"&gt;Danger&lt;/button&gt;
+                                &lt;/a&gt;
+                                &lt;a href="/"&gt;
+                                    &lt;button class="btn btn-link-disabled"&gt;Disabled&lt;/button&gt;
+                                &lt;/a&gt;
+                        </code>
+                    </pre>
+                </div>
+
 
                 <div class="component-variants">
                     <h3 class="component-varaint-heading">Icon Buttons</h3>
                     <p class="variant-specifier">
                         Variants available:
-                        <span class="variant-item">btn-solid-primary</span>, <span
+                        <span class="variant-item">btn-outline-primary</span>, <span
                             class="variant-item">btn-solid-secondary</span>,
                         <span class="variant-item">btn-solid-danger</span> & <span
                             class="variant-item">btn-solid-disabled</span>
@@ -155,7 +198,7 @@
                 </div>
                 <div class="buttons-preview-container">
 
-                    <button class="btn btn-icon btn-solid-primary">
+                    <button class="btn btn-icon btn-outline-primary">
                         <img class="btn-icon-img" src="/Assets/icons/btn-cart.svg" alt="icon">
                         <span>Add to cart</span>
                     </button>
@@ -183,22 +226,28 @@
                     <pre>
                             <code class="language-html code-snippet">
                                 
-                                    &lt;button class="btn btn-icon btn-solid-primary"&gt;
-                                        &lt;img class="btn-icon-img" src="/Assets/icons/btn-cart.svg" alt="icon"&gt;
-                                        &lt;span&gt;Add to cart&lt;/span&gt;
-                                    &lt;/button&gt;
-                                    &lt;button class="btn btn-icon btn-solid-secondary"&gt;
-                                        &lt;img class="btn-icon-img" src="/Assets/icons/btn-heart.svg" alt="icon"&gt;
-                                        &lt;span&gt;Like&lt;/span&gt;
-                                    &lt;/button&gt;
-                                    &lt;button class="btn btn-icon btn-solid-danger"&gt;
-                                        &lt;img class="btn-icon-img" src="/Assets/icons/btn-trash.svg" alt="icon"&gt;
-                                        &lt;span&gt;Delete&lt;/span&gt;
-                                    &lt;/button&gt;
-                                    &lt;button class="btn btn-icon btn-solid-disabled"&gt;
-                                        &lt;img class="btn-icon-img" src="/Assets/icons/btn-save.svg" alt="icon"&gt;
-                                        &lt;span&gt;Save&lt;/span&gt;
-                                    &lt;/button&gt;
+                                &lt;button class="btn btn-icon btn-outline-primary"&gt;
+                                    &lt;img class="btn-icon-img" src="/Assets/icons/btn-cart.svg" alt="icon"&gt;
+                                    &lt;span&gt;Add to cart&lt;/span&gt;
+                                &lt;/button&gt;
+            
+            
+                                &lt;button class="btn btn-icon btn-solid-secondary"&gt;
+                                    &lt;img class="btn-icon-img" src="/Assets/icons/btn-heart.svg" alt="icon"&gt;
+                                    &lt;span&gt;Like&lt;/span&gt;
+                                &lt;/button&gt;
+            
+            
+                                &lt;button class="btn btn-icon btn-solid-danger"&gt;
+                                    &lt;img class="btn-icon-img" src="/Assets/icons/btn-trash.svg" alt="icon"&gt;
+                                    &lt;span&gt;Delete&lt;/span&gt;
+                                &lt;/button&gt;
+            
+            
+                                &lt;button class="btn btn-icon btn-solid-disabled"&gt;
+                                    &lt;img class="btn-icon-img" src="/Assets/icons/btn-save.svg" alt="icon"&gt;
+                                    &lt;span&gt;Save&lt;/span&gt;
+                                &lt;/button&gt;
                         </code>
                     </pre>
                 </div>
@@ -215,13 +264,13 @@
                 </div>
                 <div class="buttons-preview-container">
                     <button class="btn btn-float btn-solid-primary">
-                        <img src="/Assets/icons/plus-square.svg" alt="icon">
+                        <img src="/Assets/icons/btn-text.svg" alt="icon">
                     </button>
                     <button class="btn btn-float btn-solid-secondary">
-                        <img src="/Assets/icons/btn-phone.svg" alt="icon">
+                        <img src="/Assets/Icons/btn-phone.svg" alt="icon">
                     </button>
                     <button class="btn btn-float btn-solid-danger">
-                        <img src="/Assets/icons/btn-share.svg" alt="icon">
+                        <img src="/Assets/icons/btn-unmute.svg" alt="icon">
                     </button>
                     <button class="btn btn-float btn-solid-disabled">
                         <img src="/Assets/icons/btn-pencil.svg" alt="icon">
@@ -230,7 +279,7 @@
                     <pre>
                             <code class="language-html code-snippet">
                                     &lt;button class="btn btn-float btn-solid-primary"&gt;
-                                        &lt;img src="/Assets/icons/plus-square.svg" alt="icon"&gt;
+                                        &lt;img src="/Assets/icons/btn-plus.svg" alt="icon"&gt;
                                     &lt;/button&gt;
                                     &lt;button class="btn btn-float btn-solid-secondary"&gt;
                                         &lt;img src="/Assets/icons/btn-phone.svg" alt="icon"&gt;

@@ -26,23 +26,27 @@
     --highlight-text-color:#f7e8e8;
 }
 
-
 .docspage-container {
     background-color: var(--secondary-color);
+    position: relative;
+    width: 100%;
+    padding-top: 4.4rem;
+    z-index: 1;
 }
 
 .docs-hero-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
+    position: relative;
     gap: 1rem;
 }
 
 .sidebar {
-    flex-basis: 250px;
     display: flex;
-    flex: 1;
     flex-direction: column;
+    position: fixed;
+    left:0;
     height: 100vh;
     gap: 5px;
     padding: 2rem;
@@ -56,6 +60,7 @@
 }
 
 .sidebar-list {
+    width: 200px;
     display: flex;
     font-size: 1.1rem;
     flex-direction: column;
@@ -82,12 +87,16 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin-left: 150px;
     gap: 1rem;
     padding: 2rem;
 }
 
 .docs-hero-header {
     margin-bottom: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .docs-hero-heading {
@@ -102,10 +111,16 @@
     color: var(--secondary-text-color);
 }
 
+.component-variants{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:0.5rem;
+}
+
 .component-varaint-heading {
     font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 0.5rem;
     color: var(--primary-text-color);
 }
 
