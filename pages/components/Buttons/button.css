@@ -13,11 +13,12 @@
 
 .btn{
     border: none;
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: transparent;
     cursor: pointer;
     font-size: 1rem;
-    padding: 0.8rem 1rem;
+    width:fit-content;
+    padding: 0.6rem;
     transition: all .2s ease-in;
 }
 
@@ -129,7 +130,7 @@
 
 .btn-link-disabled{
     color:var(--light-gray-color);
-    pointer-events: none;
+    pointer-events:none;
 }
 .btn-link-disabled:hover{
     text-decoration: underline;
@@ -142,6 +143,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:0.5rem;
     gap: 6px;
 }
 

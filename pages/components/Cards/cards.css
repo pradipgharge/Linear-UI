@@ -1,0 +1,202 @@
+@import url(/css/main.css);
+
+.cards-preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    border: 1px solid var(--secondary-faded-color);
+    border-radius: 8px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    background-color: var(--tertiary-text-color);
+    border-radius: 4px;
+}
+
+.card:hover{
+    box-shadow: 15px 15px 20px -5px rgba(0, 0, 0, 0.3);
+}
+
+.card-basic{
+    width:16rem;
+}
+
+.card-txt-only{
+    width: 20rem;
+}
+
+/* Horizontal card styling */
+.card-hz{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 40rem;
+    height: auto;
+    position: relative;
+    border-radius: 4px;
+    background-color: var(--tertiary-text-color);
+}
+
+.card-hz-header{
+    width: 40%;
+    display: flex;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    justify-content: center;
+
+}
+.card-hz-body-container{
+    display: flex;
+    padding: 0.8rem 0.6rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.card-hz-body{
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.card-hz-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* vertical card styling */
+.card-vt{
+    width: 16rem;
+}
+
+.card-header{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    justify-content: center;
+}
+
+.card-img{
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+    object-fit:cover;
+}
+
+.card-body{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+    padding: 0.5rem;
+}
+
+.card-title{
+    font-size: 1rem;
+}
+
+.card-subtitle{
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+.card-para{
+    font-size: 14px;
+}
+
+
+/* card with badge styling */
+.card-bdg{
+    position:absolute;
+    left:0;
+    top: 2rem;
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--light-red-color);
+    color:var(--tertiary-text-color);
+}
+
+.card-pricing{
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+    gap: 6px;
+}
+
+.card-discount{
+    color: var(--light-red-color);
+}
+
+.card-footer{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem 0.5rem;
+}
+
+
+/* card with overlay styling */
+.card-overlay{
+    position: relative;
+    opacity: 60%;
+}
+
+.card-txt-overlay{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Dismiss cards styling */
+.card-dismiss:hover{
+    transform: scale(1.02); 
+}
+.btn-dismiss{
+    background-color: var(--light-red-color);
+    position:absolute;
+    right:0;
+    top:0;
+    width: 1.5rem;
+    height:1.5rem;
+    padding:4px;
+    text-align: center;
+    opacity: 0;
+    color:var(--tertiary-text-color);
+    font-weight: 500;
+}
+
+.card-dismiss:hover .btn-dismiss{
+    opacity: 1;
+}
+
+.btn-wishlist{
+    position:absolute;
+    top:8px;
+    right:6px;
+}
