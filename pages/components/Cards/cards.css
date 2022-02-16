@@ -56,7 +56,7 @@
 }
 .card-hz-body-container{
     display: flex;
-    padding: 0.8rem 0.6rem;
+    padding: 12px 10px;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;

@@ -25,7 +25,7 @@ ol {
 }
 
 .font-light{
-    color:rgb(107, 105, 105);
+    color: var(--light-font-color);
     font-weight:300;
 }
 
