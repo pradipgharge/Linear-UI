@@ -1,3 +1,4 @@
+@import url(/css/main.css);
 * {
     margin: 0;
     padding: 0;
@@ -21,4 +22,13 @@ ol {
 .container {
     width: 80%;
     margin: auto;
+}
+
+.font-light{
+    color: var(--light-font-color);
+    font-weight:300;
+}
+
+.strikethrough{
+    text-decoration: line-through;
 }
