@@ -15,7 +15,6 @@
 .modal{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     padding: 1rem;
     max-width: 30rem;
     border-radius: 4px;
@@ -31,9 +30,6 @@
     cursor: pointer;
 }
 
-.modal:hover .btn-dismiss{
-    opacity:1;
-}
 
 .modal-footer{
     display: flex;
