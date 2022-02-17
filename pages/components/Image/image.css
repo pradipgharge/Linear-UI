@@ -6,6 +6,7 @@
     object-fit: cover;
 }
 
+/* Round image styling */
 .img-round{
     object-fit:cover;
     border-radius: 50%;
@@ -16,7 +17,18 @@
     height: 20rem;
 }
 
+.img-sm{
+    width: 10rem;
+    height: 10rem;
+}
+
 .img-lg{
     width: 15rem;
     height: 15rem;
+}
+
+/* Square image styling */
+.img-square{
+    object-fit: cover;
+    border-radius: 2px;
 }
