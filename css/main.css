@@ -6,6 +6,9 @@
 @import url(/pages/components/Badge/badge.css);
 @import url(/pages/components/Buttons/button.css);
 @import url(/pages/components/Cards/cards.css);
+@import url(/pages/components/Image/image.css);
+@import url(/pages/components/Input/input.css);
+@import url(/pages/components/Modal/modal.css);
 
 
 :root{
