@@ -74,6 +74,9 @@
     gap: 8px;
 }
 
+.btn-wishlist:hover{
+    cursor: pointer;
+}
 
 /* vertical card styling */
 .card-vt{
@@ -117,6 +120,13 @@
 .card-para{
     font-size: 14px;
 }
+.card-footer{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem 0.5rem;
+}
 
 
 /* card with badge styling */
@@ -140,14 +150,6 @@
 
 .card-discount{
     color: var(--light-red-color);
-}
-
-.card-footer{
-    display: flex;
-    flex-wrap:nowrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0.5rem 0.5rem;
 }
 
 
@@ -195,6 +197,9 @@
     opacity: 1;
 }
 
+.btn-dismiss:hover{
+    cursor: pointer;
+}
 .btn-wishlist{
     position:absolute;
     top:8px;
