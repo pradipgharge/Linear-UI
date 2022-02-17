@@ -1,0 +1,54 @@
+@import url(/css/main.css);
+
+.inputs-preview-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: 1px solid var(--secondary-faded-color);
+    border-radius: 8px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hz-input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+/* Standard Inputs Styling */
+.std-input{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+
+.std-input input{
+    padding: 8px 10px;
+    border-radius: 4px;
+    border: 1px solid var(--solid-black-color);
+    font-size: 1rem;
+    width: 20rem;
+}
+
+/* Validation Inputs Styling */
+
+.std-input .input-success{
+    border: 2px solid var(--medium-green-color);
+}
+
+.std-input .input-error{
+    border: 2px solid var(--light-red-color);
+}
+
+.std-input .input-msg{
+    font-size: 1rem;
+    padding: 4px;
+}
+
+/* Radio input styling */
+.radio-input:hover{
+    cursor: pointer;
+}
