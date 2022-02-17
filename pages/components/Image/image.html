@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+    integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/pages/components/Image/image.css">
+    <title>Linear UI | Images</title>
+</head>
+<body>
+    <header class="header header-fixed">
+        <nav class="nav-container container">
+            <div>
+                <a href="/index.html">
+                    <span class="brandname-title">Linear UI</span>
+                </a>
+                <span class="brandname-subtext">v1.0</span>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="/pages/components/Cards/cards.html">Docs</a>
+                </li>
+                <li>
+                    <a href="https://github.com/pradipgharge">Github</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/pradipgharge">Twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="docspage-container ">
+        <div class=" container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Get Started</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="#">Installation</a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Alerts/alerts.html">Alert</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Buttons/button.html">Button</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Cards/cards.html">Card</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Image/image.html">Image</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Input</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Modal</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Typography</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Toast</a>
+                    </li>
+                </ul>
+            </aside>
+            <main class="docs-main-container">
+                <div class="docs-hero-header">
+                    <h1 class="docs-hero-heading">Image</h1>
+                    <p class="docs-hero-para">
+                        Responsive images are used to display images on the web. Images can be of different shapes such as squre and round shaped, also they can expand to fit parent contianer's width.
+                    </p>
+                </div>
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Responsive Image</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        To use the responsive image component add the class <span class="variant-item">img-responsive</span> to img tag.
+                    </p>
+                </div>
+                <div class="cards-preview-container">
+                    <img class="img-responsive" src="/Assets/Images/responsive-image.jpg" alt="image">
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;img class="img-responsive" src="/Assets/Images/responsive-image.jpg" alt="image"&gt;
+                            </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Round Image</h3>
+                    <p class="variant-specifier">
+                        To use the round images add the class <span class="variant-item">img-round</span> to img tag, followed by the variant classes.<br/>Variants available: <span class="variant-item">img-xl</span>, <span class="variant-item">img-lg</span> & <span class="variant-item">img-sm</span>
+                    </p>
+                </div>
+                <div class="cards-preview-container">
+                    <img class="img-round img-xl" src="/Assets/Images/cat-img.jpeg" alt="round image">
+                    <img class="img-round img-lg" src="/Assets/Images/dog-img.jpeg" alt="round image">
+                    <img class="img-round img-sm" src="/Assets/Images/dog&cat-img.jpeg" alt="round image">
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;img class="img-round img-xl" src="/Assets/Images/cat-img-2.jpeg" alt="round image"&gt;
+                                &lt;img class="img-round img-lg" src="/Assets/Images/dog-img.jpeg" alt="round image"&gt;
+                                &lt;img class="img-round img-sm" src="/Assets/Images/dog&cat-img.jpeg" alt="round image"&gt;
+                            </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Square Image</h3>
+                    <p class="variant-specifier">
+                        To use the square images add the class <span class="variant-item">img-square</span> to img tag, followed by the variant classes.<br/>Variants available: <span class="variant-item">img-xl</span>, <span class="variant-item">img-lg</span> & <span class="variant-item">img-sm</span>
+                    </p>
+                </div>
+                <div class="cards-preview-container">
+                    <img class="img-square img-xl" src="/Assets/Images/cat-img.jpeg" alt="square image">
+                    <img class="img-square img-lg" src="/Assets/Images/dog-img.jpeg" alt="square image">
+                    <img class="img-square img-sm" src="/Assets/Images/dog&cat-img.jpeg" alt="square image">
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;img class="img-square img-xl" src="/Assets/Images/cat-img-2.jpeg" alt="square image"&gt;
+                                &lt;img class="img-square img-lg" src="/Assets/Images/dog-img.jpeg" alt="square image"&gt;
+                                &lt;img class="img-square img-sm" src="/Assets/Images/dog&cat-img.jpeg" alt="square image"&gt;
+                            </code>
+                    </pre>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>
