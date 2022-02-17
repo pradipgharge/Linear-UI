@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Highlightjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+    integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/pages/components/Input/input.css">
+    <title>Linear UI| Input</title>
+</head>
+<body>
+    <header class="header header-fixed">
+        <nav class="nav-container container">
+            <div>
+                <a href="/index.html">
+                    <span class="brandname-title">Linear UI</span>
+                </a>
+                <span class="brandname-subtext">v1.0</span>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="/pages/components/Cards/cards.html">Docs</a>
+                </li>
+                <li>
+                    <a href="https://github.com/pradipgharge">Github</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/pradipgharge">Twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="docspage-container ">
+        <div class=" container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Get Started</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="#">Installation</a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Alerts/alerts.html">Alert</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Buttons/button.html">Button</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Cards/cards.html">Card</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Image/image.html">Image</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Input/input.html">Input</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Modal</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Typography</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="#">Toast</a>
+                    </li>
+                </ul>
+            </aside>
+            <main class="docs-main-container">
+                <div class="docs-hero-header">
+                    <h1 class="docs-hero-heading">Input</h1>
+                    <p class="docs-hero-para">
+                        Inputs are way of user's interaction with the website, they are used to get information from the user such as login/signup process and in form elements.<br/><br/>To use any input element add the class <b>input</b>, followed by the variant class names.
+                    </p>
+                </div>
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Standard Inputs</h3>
+                    <p class="variant-specifier">
+                        Variants available: <span class="variant-item">std-input</span>
+                    </p>
+                </div>
+                <div class="inputs-preview-container">
+                    <div class="std-input">
+                        <label for="#user-name">Username:</label>
+                        <input id="user-name" placeholder="Enter your username" type="text"/>
+                    </div>
+                    <div class="std-input">
+                        <label for="#password">Password:</label>
+                        <input id="password" placeholder="Enter your password" type="password"/>
+                    </div>
+                    <div class="std-input">
+                        <label for="#mobile-number">Mobile Number:</label>
+                        <input id="mobile-number" placeholder="Enter your mobile number" type="number"/>
+                    </div>
+                    <div class="std-input">
+                        <label for="#user-email">Email id:</label>
+                        <input id="user-email" placeholder="Enter your email address" type="email"/>
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;div class="std-input"&gt;
+                                    &lt;label for="#user-name"&gt;Username:&lt;/label&gt;
+                                    &lt;input id="user-name" placeholder="Enter your username" type="text"/&gt;
+                                &lt;/div&gt;
+                                &lt;div class="std-input"&gt;
+                                    &lt;label for="#password"&gt;Password:&lt;/label&gt;
+                                    &lt;input id="password" placeholder="Enter your password" type="password"/&gt;
+                                &lt;/div&gt;
+                                &lt;div class="std-input"&gt;
+                                    &lt;label for="#mobile-number"&gt;Mobile Number:&lt;/label&gt;
+                                    &lt;input id="mobile-number" placeholder="Enter your mobile number" type="number"/&gt;
+                                &lt;/div&gt;
+                                &lt;div class="std-input"&gt;
+                                    &lt;label for="#user-email"&gt;Email id:&lt;/label&gt;
+                                    &lt;input id="user-email" placeholder="Enter your email address" type="email"/&gt;
+                                &lt;/div&gt;
+                            </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Validation Inputs</h3>
+                    <p class="variant-specifier">
+                        These type of inputs are generally used in form elements to validate user's response.<br/>
+                        Variants available: <span class="variant-item">input-success</span> & <span class="variant-item">input-error</span>
+                    </p>
+                </div>
+                <div class="inputs-preview-container">
+                    <div class="std-input">
+                        <label for="#user-name">Username:</label>
+                        <input id="user-name" class="input-success" placeholder="Enter your username" type="text"/>
+                        <span class="input-msg">Success ! email matched</span>
+                    </div>
+                    <div class="std-input">
+                        <label for="#password">Password:</label>
+                        <input id="password" class="input-error" placeholder="Enter your password" type="password"/>
+                        <span class="input-msg">Incorrect password !</span>
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;div class="std-input"&gt;
+                                    &lt;label for="#user-name"&gt;Username:&lt;/label&gt;
+                                    &lt;input id="user-name" class="input-success" placeholder="Enter your username" type="text"/&gt;
+                                    &lt;span class="input-msg"&gt;Success ! email matched&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;div class="std-input"&gt;
+                                    &lt;label for="#password"&gt;Password:&lt;/label&gt;
+                                    &lt;input id="password" class="input-error" placeholder="Enter your password" type="password"/&gt;
+                                    &lt;span class="input-msg"&gt;Incorrect password !&lt;/span&gt;
+                                &lt;/div&gt;
+                            </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Radio Inputs</h3>
+                    <p class="variant-specifier">
+                        Radio buttons allow user to select one out of the given choices. It comes with a default choice marked as checked.
+                    </p>
+                </div>
+                <div class=" inputs-preview-container hz-input-container">
+                    <div class="radio-input">
+                        <input id="physics" type="radio" name="subject" value="physics" checked>
+                        <label for="physics">Physics</label>
+                    </div>
+                    <div class="radio-input">
+                        <input id="chemistry" type="radio" name="subject" value="chemistry">
+                        <label for="chemistry">Chemistry</label>
+                    </div>
+                    <div class="radio-input">
+                        <input id="maths" type="radio" name="subject" value="maths">
+                        <label for="maths">Maths</label>
+                    </div>
+                    <div class="radio-input">
+                        <input id="biology" type="radio" name="subject" value="biology" disabled>
+                        <label for="biology">Biology</label>
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;div class="radio-input"&gt;
+                                    &lt;input id="physics" type="radio" name="subject" value="physics" checked&gt;
+                                    &lt;label for="physics"&gt;Physics&lt;/label&gt;
+                                &lt;/div&gt;
+                                &lt;div class="radio-input"&gt;
+                                    &lt;input id="chemistry" type="radio" name="subject" value="chemistry"&gt;
+                                    &lt;label for="chemistry"&gt;Chemistry&lt;/label&gt;
+                                &lt;/div&gt;
+                                &lt;div class="radio-input"&gt;
+                                    &lt;input id="maths" type="radio" name="subject" value="maths"&gt;
+                                    &lt;label for="maths"&gt;Maths&lt;/label&gt;
+                                &lt;/div&gt;
+                                &lt;div class="radio-input"&gt;
+                                    &lt;input id="biology" type="radio" name="subject" value="biology" disabled&gt;
+                                    &lt;label for="biology"&gt;Biology&lt;/label&gt;
+                                &lt;/div&gt;
+                            </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Checkbox Inputs</h3>
+                    <p class="variant-specifier">
+                        Checkbox inputs allow users to select multiple inputs from the given choices.
+                    </p>
+                </div>
+                <div class="inputs-preview-container hz-input-container">
+                    <div class="checkbox-input">
+                        <label for="english">
+                            <input id="english" type="checkbox" name="languages" value="English" checked>
+                            English
+                        </label>
+                    </div>
+                    <div class="checkbox-input">
+                        <label for="hindi">
+                            <input id="hindi" type="checkbox" name="languages" value="Hindi">
+                            Hindi
+                        </label>
+                    </div>
+                    <div class="checkbox-input">
+                        <label for="marathi">
+                            <input id="marathi" type="checkbox" name="languages" value="Marathi">
+                            Marathi
+                        </label>
+                    </div>
+                    <div class="checkbox-input">
+                        <label for="spanish">
+                            <input id="spanish" type="checkbox" name="languages" value="Spanish" disabled>
+                            Spanish
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;div class="checkbox-input"&gt;
+                                    &lt;label for="english"&gt;
+                                        &lt;input id="english" type="checkbox" name="languages" value="English" checked&gt;
+                                        English
+                                    &lt;/label&gt;
+                                &lt;/div&gt;
+                                &lt;div class="checkbox-input"&gt;
+                                    &lt;label for="hindi"&gt;
+                                        &lt;input id="hindi" type="checkbox" name="languages" value="Hindi"&gt;
+                                        Hindi
+                                    &lt;/label&gt;
+                                &lt;/div&gt;
+                                &lt;div class="checkbox-input"&gt;
+                                    &lt;label for="marathi"&gt;
+                                        &lt;input id="marathi" type="checkbox" name="languages" value="Marathi"&gt;
+                                        Marathi
+                                    &lt;/label&gt;
+                                &lt;/div&gt;
+                                &lt;div class="checkbox-input"&gt;
+                                    &lt;label for="spanish"&gt;
+                                        &lt;input id="spanish" type="checkbox" name="languages" value="Spanish" disabled&gt;
+                                        Spanish
+                                    &lt;/label&gt;
+                                &lt;/div&gt;
+                            </code>
+                    </pre>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>
