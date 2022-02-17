@@ -182,20 +182,16 @@
 .btn-dismiss{
     background-color: var(--light-red-color);
     position:absolute;
-    right:0;
-    top:0;
+    right:2px;
+    top:2px;
     width: 1.5rem;
     height:1.5rem;
     padding:4px;
     text-align: center;
-    opacity: 0;
     color:var(--tertiary-text-color);
     font-weight: 500;
 }
 
-.card-dismiss:hover .btn-dismiss{
-    opacity: 1;
-}
 
 .btn-dismiss:hover{
     cursor: pointer;

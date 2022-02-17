@@ -161,3 +161,8 @@
 .btn-float:hover{
     transform: scale(.90);
 }
+
+.btn-icon-img{
+    width: 100%;
+    height:auto;
+}

@@ -1,0 +1,39 @@
+@import url(/css/main.css);
+
+.modal-preview-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: 1px solid var(--secondary-faded-color);
+    border-radius: 8px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 30rem;
+    border-radius: 4px;
+    background-color: var(--tertiary-text-color);
+    gap: 1.5rem;
+}
+
+.modal-header{
+    position: relative;
+}
+
+.modal:hover{
+    cursor: pointer;
+}
+
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
