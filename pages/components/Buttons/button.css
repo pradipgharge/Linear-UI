@@ -164,5 +164,6 @@
 
 .btn-icon-img{
     width: 100%;
+    max-width: 1.4rem;
     height:auto;
 }

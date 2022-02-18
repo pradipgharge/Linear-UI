@@ -1,0 +1,51 @@
+@import url(/css/main.css);
+
+.typography-preview-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: 1px solid var(--secondary-faded-color);
+    border-radius: 8px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+/* Paragraph Text Styling */
+.para-lg{
+    font-size: 1.5rem;
+}
+.para-rg{
+    font-size: 1rem;
+}
+.para-md{
+    font-size: 0.8rem;
+}
+.para-sm{
+    font-size: 0.7rem;
+}
+
+/* Aligned Text Styling */
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+/* Other type of text */
+.text-bold{
+    font-weight: bold;
+}
+.text-strikethrough{
+    text-decoration:line-through;
+}
+.text-light{
+    font-weight: 200;
+}
+.gray-text{
+    color: var(--dark-gray-color)
+}
