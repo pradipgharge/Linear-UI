@@ -10,6 +10,7 @@
 @import url(/pages/components/Input/input.css);
 @import url(/pages/components/Modal/modal.css);
 @import url(/pages/components/Typography/typography.css);
+@import url(/pages/components/Toast/toast.css);
 
 
 :root{
@@ -32,6 +33,7 @@
     --medium-yellow-color:#eeca17;
     --light-gray-color:#64748b;
     --dark-gray-color:#566780;
+    --extra-dark-gray-color:#323233;
     --light-font-color:#6B6969;
     --highlight-text-color:#f7e8e8;
     --solid-black-color:#000000;

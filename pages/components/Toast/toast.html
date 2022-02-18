@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
     integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/pages/components/Modal/modal.css">
-    <title>Linear UI | Modal</title>
+    <link rel="stylesheet" href="/pages/components/Toast/toast.css">
+    <title>Linear UI| Toast</title>
 </head>
 <body>
     <header class="header header-fixed">
@@ -22,7 +22,7 @@
             </div>
             <ul class="nav-list">
                 <li>
-                    <a href="/pages/components/Modal/modal.html">Docs</a>
+                    <a href="/pages/components/Toast/toast.html">Docs</a>
                 </li>
                 <li>
                     <a href="https://github.com/pradipgharge">Github</a>
@@ -79,50 +79,68 @@
             </aside>
             <main class="docs-main-container">
                 <div class="docs-hero-header">
-                    <h1 class="docs-hero-heading">Modal</h1>
+                    <h1 class="docs-hero-heading">Toast</h1>
                     <p class="docs-hero-para">
-                        A modal is a window that appears on top of a parent screen.It's called 'modal' because it creates a mode that disables the parent screen but keeps it visible. Users must interact with the modal to return to the main screen.<br/><br/>To use any modal element add the class <b>modal</b>, followed by the variant class names.
+                        Toast is a small message that shows up in a box at the bottom of the screen and disappears on its own after few seconds.It only fills the amount of space required for the message and the current activity remains visible and interactive. 
                     </p>
                 </div>
                 <div class="component-variants">
-                    <h3 class="component-varaint-heading">Modal Example</h3>
+                    <h3 class="component-varaint-heading">Simple Toast</h3>
                 </div>
-                <div class="modal-preview-container">
-                    <div class="modal">
-                        <div class="modal-header">
-                            <h2 class="modal-heading">Modal Title</h2>
-                            <buttton class="btn-dismiss">
-                                <img class="btn-icon-img" src="/Assets/Icons/btn-close.svg">
-                            </buttton>
-                        </div>
-                        <div class="modal-body">
-                            <p class="modal-para">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn btn-solid-primary">Shop Now</button>
-                            <button class="btn btn-outline-secondary">Cancel</button>
-                        </div>
+                <div class="toast-preview-container">
+                    <div class="toast toast-gray-bg">
+                        <p class="toast-title">Connection timed out. Showing limited messages.</p>
+                        <button class="btn-toast">RETRY</button>
+                    </div>
+                    <div class="toast toast-info">
+                        <p class="toast-title">Your photos have been archived.</p>
+                        <button class="btn-toast">UNDO</button>
                     </div>
                 </div>
                 <div>
                     <pre>
                             <code class="language-html code-snippet">
-                                &lt;div class="modal-header"&gt;
-                                    &lt;h2 class="modal-heading"&gt;Modal Title&lt;/h2&gt;
-                                    &lt;buttton class="btn-dismiss"&gt;
-                                        &lt;img class="btn-icon-img" src="/Assets/Icons/btn-close.svg"&gt;
-                                    &lt;/buttton&gt;
+                                    &lt;div class="toast toast-gray-bg"&gt;
+                                        &lt;p class="toast-title"&gt;Connection timed out. Showing limited messages.&lt;/p&gt;
+                                        &lt;button class="btn-toast"&gt;RETRY&lt;/button&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="toast toast-info"&gt;
+                                        &lt;p class="toast-title"&gt;Your photos have been archived.&lt;/p&gt;
+                                        &lt;button class="btn-toast"&gt;UNDO&lt;/button&gt;
+                                    &lt;/div&gt;
+                            </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Toast with button</h3>
+                </div>
+                <div class="typography-preview-container">
+                    <div class="toast toast-white-bg">
+                        <p class="toast-title">Feel free to contact, if you have any questions.</p>
+                        <button class="btn btn-solid-primary">HIDE</button>
+                    </div>
+                    <div class="toast toast-gray-bg">
+                        <p class="toast-title">You have purchased material design system.</p>
+                        <button class="btn btn-icon btn-solid-secondary">
+                            <img class="btn-icon-img" src="/Assets/icons/btn-rounded-check.svg" alt="icon">
+                            <span>OK</span>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;div class="toast toast-white-bg"&gt;
+                                    &lt;p class="toast-title"&gt;Feel free to contact, if you have any questions.&lt;/p&gt;
+                                    &lt;button class="btn btn-solid-primary"&gt;HIDE&lt;/button&gt;
                                 &lt;/div&gt;
-                                &lt;div class="modal-body"&gt;
-                                    &lt;p class="modal-para"&gt;
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                    &lt;/p&gt;
-                                &lt;/div&gt;
-                                &lt;div class="modal-footer"&gt;
-                                    &lt;button class="btn btn-solid-primary"&gt;Shop Now&lt;/button&gt;
-                                    &lt;button class="btn btn-outline-secondary"&gt;Cancel&lt;/button&gt;
+                                &lt;div class="toast toast-gray-bg"&gt;
+                                    &lt;p class="toast-title"&gt;You have purchased material design system.&lt;/p&gt;
+                                    &lt;button class="btn btn-icon btn-solid-secondary"&gt;
+                                        &lt;img class="btn-icon-img" src="/Assets/icons/btn-rounded-check.svg" alt="icon"&gt;
+                                        &lt;span&gt;OK&lt;/span&gt;
+                                    &lt;/button&gt;
                                 &lt;/div&gt;
                             </code>
                     </pre>
