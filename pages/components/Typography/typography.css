@@ -46,3 +46,6 @@
 .text-light{
     font-weight: 200;
 }
+.gray-text{
+    color: var(--dark-gray-color)
+}
