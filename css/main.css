@@ -155,3 +155,9 @@
     border-radius: 8px;
     font-size: 12px;
 }
+
+hr{
+    height: 1px;
+    background-color: var(--primary-text-color);
+    border: none;
+}
