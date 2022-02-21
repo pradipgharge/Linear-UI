@@ -3,6 +3,8 @@
 
 Linear UI is a pure CSS component library built using HTML and CSS. It's fast, aesthetically designed and super easy to use.
 
+[Linear UI - Homepage](https://linearui.netlify.app/ "Linear UI")
+
 ## How to install Linear UI ?
 
 To use Linear UI components just add the following code in the &lt;head&gt; tag of your html document and you are good to go.
@@ -156,11 +158,3 @@ You can check more about the `toasts` here : https://linearui.netlify.app/pages/
 ---
 
 Thanks for reading, hope you like Linear UI.
-
-
-
-
-
-
-
-
