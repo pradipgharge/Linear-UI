@@ -29,13 +29,15 @@ To use Linear UI components just add the following code in the &lt;head&gt; tag 
 
 7. [Input](#inputs)
 
-8. [Modal](#modal)
+8. [Lists](#lists)
 
-9. [Slider](#slider)
+9. [Modal](#modal)
 
-10. [Typography](#typographytypography)
+10. [Slider](#slider)
 
-11. [Toast](#toast)
+11. [Typography](#typographytypography)
+
+12. [Toast](#toast)
 
 ---
 
@@ -125,6 +127,18 @@ You can check more about the `input` component here : https://linearui.netlify.a
 
 ---
 
+### Lists
+
+A list is a record of short pieces of related information or used to display the data or any information in web pages in the ordered or unordered form. Linear UI has following types of lists :
+- Unordered Lists
+- Ordered Lists
+- Inline Lists
+- Stacked Lists
+
+You can check more about the `lists` component here : https://linearui.netlify.app/pages/components/lists/list
+
+---
+
 ### Modal
 
 A modal is a web page element that displays in front of and deactivates all other page content. Currently Linear UI has only one type of modal.
@@ -135,7 +149,7 @@ You can check the `modal` component here: https://linearui.netlify.app/pages/com
 
 ### Slider
 
-AA range slider is an input field that users can use to select a numeric value within a given range (minimum and maximum values).
+A range slider is an input field that users can use to select a numeric value within a given range (minimum and maximum values).
 
 You can check the `slider` component here: https://linearui.netlify.app/pages/components/slider/slider
 
