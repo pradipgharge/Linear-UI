@@ -3,13 +3,13 @@
 .cards-preview-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
     height: fit-content;
     border: 1px solid var(--secondary-faded-color);
     border-radius: 8px;
     padding: 1rem;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
 }
 
 .card{
@@ -54,6 +54,7 @@
     justify-content: center;
 
 }
+
 .card-hz-body-container{
     display: flex;
     padding: 12px 10px;
@@ -61,11 +62,13 @@
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+
 .card-hz-body{
     display:flex;
     flex-direction: column;
     gap: 8px;
 }
+
 .card-hz-footer{
     display: flex;
     flex-wrap: nowrap;
@@ -87,10 +90,10 @@
     position:relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border-radius: inherit;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    justify-content: center;
 }
 
 .card-img{
@@ -101,11 +104,11 @@
 }
 
 .card-body{
-    position:relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 6px;
+    position:relative;
     padding: 0.5rem;
 }
 
@@ -117,9 +120,11 @@
     opacity: 0.5;
     font-size: 0.9rem;
 }
+
 .card-para{
     font-size: 14px;
 }
+
 .card-footer{
     display: flex;
     flex-wrap:nowrap;
@@ -127,7 +132,6 @@
     align-items: center;
     padding: 0 0.5rem 0.5rem;
 }
-
 
 /* card with badge styling */
 .card-bdg{
@@ -160,6 +164,10 @@
 }
 
 .card-txt-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -168,10 +176,6 @@
     padding: 0.5rem;
     font-size: 1rem;
     font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -179,6 +183,7 @@
 .card-dismiss:hover{
     transform: scale(1.02); 
 }
+
 .btn-dismiss{
     background-color: var(--light-red-color);
     position:absolute;
@@ -192,10 +197,10 @@
     font-weight: 500;
 }
 
-
 .btn-dismiss:hover{
     cursor: pointer;
 }
+
 .btn-wishlist{
     position:absolute;
     top:8px;

@@ -3,11 +3,11 @@
 .slider-preview-container {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     height: fit-content;
     border: 1px solid var(--secondary-faded-color);
     border-radius: 8px;
     padding: 1rem;
-    gap: 1rem;
 }
 
 .range-sliderr{
@@ -16,7 +16,6 @@
     border-radius: 4px;
     width:40%;
     background-color: var(--tertiary-text-color);
-    
 }
 
 .number-range{
