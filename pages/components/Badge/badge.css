@@ -1,6 +1,4 @@
 @import url(/css/main.css);
-@import url(/pages/components/Avatar/avatar.css);
-
 
 .badge-preview-container {
     display: flex;
@@ -38,28 +36,7 @@
     height: 2rem;
 }
 
-.badge-icon {
-    width: 100%;
-    height: auto;
-}
-
-.bd-count {
-    display: flex;
-    justify-content: center;
-    font-size: 10px;
-    align-items: center;
-    position: absolute;
-    top: 2px;
-    right: 0px;
-    width: 25%;
-    height: 25%;
-    min-height: 12px;
-    min-width: 12px;
-    border-radius: 50%;
-    color: var(--tertiary-text-color);
-    background-color: var(--light-red-color);
-}
-
+/* badge on avatar styling */
 .bd-status {
     position: absolute;
     right: 2px;
@@ -88,3 +65,30 @@
 .bd-dnd {
     background-color: var(--light-gray-color);
 }
+
+/* badge on icon styling */
+.badge-icon {
+    width: 100%;
+    height: auto;
+}
+
+.bd-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 0.75rem;
+    top: -6px;
+    right: -4px;
+    width: 30%;
+    height: 30%;
+    min-height: 1.2rem;
+    min-width: 1.2rem;
+    border-radius: 50%;
+    padding: 8px;
+    color: var(--tertiary-text-color);
+    background-color: var(--light-red-color);
+}
+
+
+

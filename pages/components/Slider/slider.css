@@ -1,0 +1,36 @@
+@import url(/css/main.css);
+
+.slider-preview-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: 1px solid var(--secondary-faded-color);
+    border-radius: 8px;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.range-sliderr{
+    margin: auto;
+    padding: 1rem;
+    border-radius: 4px;
+    width:40%;
+    background-color: var(--tertiary-text-color);
+    
+}
+
+.number-range{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.slider{
+    cursor: pointer;
+    width: 100%;
+    accent-color: var(--primary-text-color);
+}
+
+.slider:hover{
+    accent-color: var(--secondary-color-dark);
+}

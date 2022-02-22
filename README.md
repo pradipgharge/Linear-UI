@@ -3,7 +3,7 @@
 
 Linear UI is a pure CSS component library built using HTML and CSS. It's fast, aesthetically designed and super easy to use.
 
-[Linear UI - Homepage](https://linearui.netlify.app/ "Linear UI")
+You can checkout Linear UI here 👉 [Linear UI - Homepage](https://linearui.netlify.app/ "Linear UI")
 
 ## How to install Linear UI ?
 
@@ -31,9 +31,11 @@ To use Linear UI components just add the following code in the &lt;head&gt; tag 
 
 8. [Modal](#modal)
 
-9. [Typography](#typographytypography)
+9. [Slider](#slider)
 
-10. [Toast](#toast)
+10. [Typography](#typographytypography)
+
+11. [Toast](#toast)
 
 ---
 
@@ -128,6 +130,14 @@ You can check more about the `input` component here : https://linearui.netlify.a
 A modal is a web page element that displays in front of and deactivates all other page content. Currently Linear UI has only one type of modal.
 
 You can check the `modal` component here: https://linearui.netlify.app/pages/components/modal/modal
+
+---
+
+### Slider
+
+AA range slider is an input field that users can use to select a numeric value within a given range (minimum and maximum values).
+
+You can check the `slider` component here: https://linearui.netlify.app/pages/components/slider/slider
 
 ---
 

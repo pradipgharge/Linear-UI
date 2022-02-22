@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Highlightjs-->
+    <!-- Highlightjs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
     integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/main.css">
-    <title>Linear UI | Docs</title>
+    <link rel="stylesheet" href="/pages/components/Slider/slider.css">
+    <title>Linear UI | Slider</title>
 </head>
 <body>
     <header class="header header-fixed">
@@ -22,7 +22,7 @@
             </div>
             <ul class="nav-list">
                 <li>
-                    <a href="/pages/components/Alerts/alerts.html">Docs</a>
+                    <a href="/pages/components/Slider/slider.html">Docs</a>
                 </li>
                 <li>
                     <a href="https://github.com/pradipgharge">Github</a>
@@ -35,7 +35,7 @@
     </header>
 
     <section class="docspage-container ">
-        <div class="container">
+        <div class=" container">
             <aside class="sidebar">
                 <div class="sidebar-heading">Get Started</div>
                 <ul class="sidebar-list">
@@ -82,38 +82,42 @@
             </aside>
             <main class="docs-main-container">
                 <div class="docs-hero-header">
-                    <h1 class="docs-hero-heading">Introduction</h1>
+                    <h1 class="docs-hero-heading">Slider</h1>
                     <p class="docs-hero-para">
-                        Linear UI is a component library which has a collection of custom UI components that come in a wide range of sizes, shapes and colors, with the help of these components you can easily build websites and webapps without worrying much about the design part (a problem that developers usually face). 
+                        Range Sliders are used on web pages to allow the user to choose value from a range which is represented as a slider. It is used when the exact numeric value isn’t required to input. 
                     </p>
                 </div>
-                <br><hr><br>
-                <div class="docs-hero-header">
-                    <h1 class="docs-hero-heading">Installation Guide</h1>
-                    <p class="docs-hero-para">
-                        To use Linear UI components all you need to do is just copy & paste the below code in the &lt;head&gt; tag of your html document, and you are good to go.
-                    </p>
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Simple Slider</h3>
                 </div>
+                <div class="slider-preview-container">
+                    <div class="range-sliderr">
+                        <div class="number-range">
+                            <span>0</span>
+                            <span>500</span>
+                        </div>
+                        <input type="range" class="slider" value="100" min="0" max="500">
+                    </div>
+                </div>
+                <br><br><br>
                 <div>
                     <pre>
+
                             <code class="language-html code-snippet">
-                                &lt;link rel="stylesheet" href="https://linearui.netlify.app/css/main.css"&gt;
-                        </code>
+                                &lt;div class="range-sliderr"&gt;
+                                    &lt;div class="number-range"&gt;
+                                        &lt;span&gt;0&lt;/span&gt;
+                                        &lt;span&gt;500&lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;input type="range" class="slider" value="100" min="0" max="500"&gt;
+                                &lt;/div&gt;
+                            </code>
                     </pre>
                 </div>
-
-                <p class="docs-hero-para">
-                    To know more about the UI components and their different variants read the docs. 👉
-                    <a href="/pages/components/Alerts/alerts.html">
-                        <button class="btn btn-link-primary"> Read Docs</button>
-                    </a>
-                    <br><br><br>
-                </p>
+                <br><br><br>
             </main>
         </div>
-
     </section>
-
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
     <script>
