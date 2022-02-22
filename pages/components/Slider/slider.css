@@ -24,8 +24,13 @@
     justify-content: space-between;
     font-weight: 500;
 }
+
 .slider{
     cursor: pointer;
     width: 100%;
     accent-color: var(--primary-text-color);
+}
+
+.slider:hover{
+    accent-color: var(--secondary-color-dark);
 }
