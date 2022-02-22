@@ -61,9 +61,13 @@
     flex-direction: column;
     position: fixed;
     left:0;
-    height: 100vh;
+    top: 0;
+    bottom: 0;
+    height: 100%;
     gap: 5px;
-    padding: 2rem;
+    padding: 6rem 2rem 2rem 2rem;
+    overflow-y: auto;
+    z-index: 2;
     background-color: var(--sidebar-color);
 }
 

@@ -33,11 +33,13 @@ To use Linear UI components just add the following code in the &lt;head&gt; tag 
 
 9. [Modal](#modal)
 
-10. [Slider](#slider)
+10. [Navigation](#navigation)
 
-11. [Typography](#typographytypography)
+11. [Slider](#slider)
 
-12. [Toast](#toast)
+12. [Typography](#typographytypography)
+
+13. [Toast](#toast)
 
 ---
 
@@ -144,6 +146,14 @@ You can check more about the `lists` component here : https://linearui.netlify.a
 A modal is a web page element that displays in front of and deactivates all other page content. Currently Linear UI has only one type of modal.
 
 You can check the `modal` component here: https://linearui.netlify.app/pages/components/modal/modal
+
+---
+
+### Navigation
+
+A navigation is a web page element which has links to different pages of the website to help the user navigate easily.
+
+You can check the `navigation` component here: https://linearui.netlify.app/pages/components/navigation/navigation
 
 ---
 

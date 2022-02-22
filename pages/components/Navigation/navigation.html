@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Highlightjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+    integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/pages/components/Navigation/navigation.css">
+    <title>Linear UI | Navigation</title>
+</head>
+<body>
+    <header class="header header-fixed">
+        <nav class="nav-container container">
+            <div>
+                <a href="/index.html">
+                    <span class="brandname-title">Linear UI</span>
+                </a>
+                <span class="brandname-subtext">v1.0</span>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="/pages/components/Input/input.html">Docs</a>
+                </li>
+                <li>
+                    <a href="https://github.com/pradipgharge">Github</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/pradipgharge">Twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="docspage-container ">
+        <div class=" container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Get Started</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="/pages/main.html">Installation</a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Alerts/alerts.html">Alert</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Buttons/button.html">Button</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Cards/cards.html">Card</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Image/image.html">Image</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Input/input.html">Input</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Lists/list.html">List</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Modal/modal.html">Modal</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Navigation/navigation.html">Navigation</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Slider/slider.html">Slider</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Typography/typography.html">Typography</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Toast/toast.html">Toast</a>
+                    </li>
+                </ul>
+            </aside>
+            <main class="docs-main-container">
+                <div class="docs-hero-header">
+                    <h1 class="docs-hero-heading">Navigation</h1>
+                    <p class="docs-hero-para">
+                        A navigation bar is has links to appropriate sections/pages in a website that helps readers in traversing the online document.
+                    </p>
+                </div>
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Simple navbar</h3>
+                </div>
+                <div class="navbar-preview-container">
+                    <nav class="navbar-basic">
+                        <a class="navbar-home">
+                            <img src="/Assets/Icons/btn-home.svg" alt="home icon">
+                            <span>Home</span>
+                        </a>
+                        <ul class="navbar-basic-list">
+                            <li class="navbar-item">
+                                <a>Projects</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a>Blogs</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a>About</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;nav class="navbar-basic"&gt;
+                                    &lt;a class="navbar-home"&gt;
+                                        &lt;img src="/Assets/Icons/btn-home.svg" alt="home icon"&gt;
+                                        &lt;span&gt;Home&lt;/span&gt;
+                                    &lt;/a&gt;
+                                    &lt;ul class="navbar-basic-list"&gt;
+                                        &lt;li class="navbar-item"&gt;
+                                            &lt;a&gt;Projects&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="navbar-item"&gt;
+                                            &lt;a&gt;Blogs&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class="navbar-item"&gt;
+                                            &lt;a&gt;About&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/nav&gt;
+                            </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Navbar with search</h3>
+                </div>
+                <div class="navbar-preview-container">
+                    <nav class="navbar-basic">
+                        <div class="nav-left">
+                            <span class="nav-logo">Logoname</span>
+                            <div class="nav-searchbar">
+                                <button class="btn-searchbar">
+                                    <img src="/Assets/Icons/btn-search.svg" alt="search icon">
+                                </button>
+                                <input type="text" class="nav-input" placeholder="Search products">
+                            </div>
+                        </div>
+                        <ul class="navbar-basic-list nav-right">
+                            <li>
+                                <a>Products</a>
+                            </li>
+                            <li>
+                                <a>Wishlist</a>
+                            </li>
+                            <li>
+                                <a>Cart</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;nav class="navbar-basic"&gt;
+                                    &lt;div class="nav-left"&gt;
+                                        &lt;span class="nav-logo"&gt;Logoname&lt;/span&gt;
+                                        &lt;div class="nav-searchbar"&gt;
+                                            &lt;button class="btn-searchbar"&gt;
+                                                &lt;img src="/Assets/Icons/btn-search.svg" alt="search icon"&gt;
+                                            &lt;/button&gt;
+                                            &lt;input type="text" class="nav-input" placeholder="Search products"&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;ul class="navbar-basic-list nav-right"&gt;
+                                        &lt;li&gt;
+                                            &lt;a&gt;Products&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a&gt;Wishlist&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;a&gt;Cart&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/nav&gt;
+                            </code>
+                    </pre>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>
