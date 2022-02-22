@@ -1,0 +1,77 @@
+@import url(/css/main.css);
+
+.lists-preview-container {
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+    border: 1px solid var(--secondary-faded-color);
+    border-radius: 8px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.vt-list-container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Unordered list styling */
+.list-style-disc{
+    list-style-type: disc;
+}
+
+.list-style-circle{
+    list-style-type: circle;
+}
+
+.list-style-square{
+    list-style-type: square;
+}
+
+/* Ordered list styling */
+.list-style-decimal{
+    list-style-type: decimal;
+}
+
+.list-style-upper-roman{
+    list-style-type:upper-roman;
+}
+
+.list-style-lower-roman{
+    list-style-type:lower-roman;
+}
+
+.list-style-upper-alpha{
+    list-style-type:upper-alpha;
+}
+
+.list-style-lower-alpha{
+    list-style-type:lower-alpha;
+}
+
+/* Other type os list styling */
+.list-inline{
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Stacked list styling */
+.stacked-list{
+    background-color: var(--tertiary-text-color);
+}
+.stacked-list-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid var(--primary-text-color);
+    padding: 1rem;
+}
+
+.list-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
