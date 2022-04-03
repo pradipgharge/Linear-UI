@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Highlightjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
+    integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/pages/components/Grids/grids.css"></link>
+    <title>Linear UI | Grids</title>
+</head>
+<body>
+    <header class="header header-fixed">
+        <nav class="nav-container container">
+            <div>
+                <a href="/index.html">
+                    <span class="brandname-title">Linear UI</span>
+                </a>
+                <span class="brandname-subtext">v1.0</span>
+            </div>
+            <ul class="nav-list">
+                <li>
+                    <a href="/pages/components/Grids/grids.html">Docs</a>
+                </li>
+                <li>
+                    <a href="https://github.com/pradipgharge">Github</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/pradipgharge">Twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="docspage-container ">
+        <div class=" container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Get Started</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="/pages/main.html">Installation</a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Alerts/alerts.html">Alert</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Buttons/button.html">Button</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Cards/cards.html">Card</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Grids/grids.html">Grid</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Image/image.html">Image</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Input/input.html">Input</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Lists/list.html">List</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Modal/modal.html">Modal</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Navigation/navigation.html">Navigation</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Slider/slider.html">Slider</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Typography/typography.html">Typography</a>
+                    </li>
+                    <li class="sidebar-list-item">
+                        <a href="/pages/components/Toast/toast.html">Toast</a>
+                    </li>
+                </ul>
+            </aside>
+            <main class="docs-main-container">
+                <div class="docs-hero-header">
+                    <h1 class="docs-hero-heading">Grid</h1>
+                    <p class="docs-hero-para">A Grid is a collection of horizontal and vertical lines creating a pattern against which we can line up our design elements, they are used to build responsive layouts <br /><br />To use any button component add the class <b>grid</b>, followed by the variant class names.
+                    </p>
+                </div>
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Two column grid</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">grid-50-50</span>, <span
+                            class="variant-item">grid-70-30</span>
+                    </p>
+                </div>
+                <div class="grids-preview-container">
+                    <div class="grid grid-50-50">
+                        <div class="grid-item1">Box 1</div>
+                        <div class="grid-item2">Box 2</div>
+                    </div>
+                    <br><br>
+                    <div class="grid grid-70-30">
+                        <div class="grid-item1">Box 1</div>
+                        <div class="grid-item2">Box 2</div>
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                &lt;div class="grid-50-50"&gt;
+                                    &lt;div class="grid-item1"&gt;Box 1&lt;/div&gt;
+                                    &lt;div class="grid-item2"&gt;Box 2&lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;br&gt;&lt;br&gt;
+                                &lt;div class="grid-70-30"&gt;
+                                    &lt;div class="grid-item1"&gt;Box 1&lt;/div&gt;
+                                    &lt;div class="grid-item2"&gt;Box 2&lt;/div&gt;
+                                &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Three column grid</h3>
+                    <p class="variant-specifier">
+                        Variants available:
+                        <span class="variant-item">grid-25-50-25</span>, <span
+                            class="variant-item">grid-3-column</span>
+                    </p>
+                </div>
+                <div class="grids-preview-container">
+                    <div class="grid grid-25-50-25">
+                        <div class="grid-item1">Box 1</div>
+                        <div class="grid-item2">Box 2</div>
+                        <div class="grid-item3">Box 3</div>
+                    </div>
+                </div>
+                <br>
+                <div class="grids-preview-container">
+                    <div class="grid grid-3-column">
+                        <div class="card card-vt">
+                            <div class="card-header">
+                                <img class="card-img" src="/Assets/Images/card-image-3.jpg" alt="card image">
+                                <span class="btn-wishlist"><img src="/Assets/Icons/btn-wishlist.svg" alt="card icon"></span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apple</h5>
+                                <small class="card-subtitle">Apple airpods</small>
+                                <div class="card-pricing">
+                                    <h5>Rs. 1750</h5>
+                                    <h5 class="font-light strikethrough">Rs.3500</h5>
+                                    <h5 class="card-discount">(50% Off)</h5>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class=" btn btn-solid-primary">Buy Now</button>
+                                <button class="btn btn-icon btn-solid-secondary">
+                                    <img class="btn-icon-img" src="/Assets/icons/btn-cart.svg" alt="icon">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card-vt">
+                            <div class="card-header">
+                                <img class="card-img" src="/Assets/Images/card-image-3.jpg" alt="card image">
+                                <span class="btn-wishlist"><img src="/Assets/Icons/btn-wishlist.svg" alt="card icon"></span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apple</h5>
+                                <small class="card-subtitle">Apple airpods</small>
+                                <div class="card-pricing">
+                                    <h5>Rs. 1750</h5>
+                                    <h5 class="font-light strikethrough">Rs.3500</h5>
+                                    <h5 class="card-discount">(50% Off)</h5>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class=" btn btn-solid-primary">Buy Now</button>
+                                <button class="btn btn-icon btn-solid-secondary">
+                                    <img class="btn-icon-img" src="/Assets/icons/btn-cart.svg" alt="icon">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card card-vt">
+                            <div class="card-header">
+                                <img class="card-img" src="/Assets/Images/card-image-3.jpg" alt="card image">
+                                <span class="btn-wishlist"><img src="/Assets/Icons/btn-wishlist.svg" alt="card icon"></span>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apple</h5>
+                                <small class="card-subtitle">Apple airpods</small>
+                                <div class="card-pricing">
+                                    <h5>Rs. 1750</h5>
+                                    <h5 class="font-light strikethrough">Rs.3500</h5>
+                                    <h5 class="card-discount">(50% Off)</h5>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <button class=" btn btn-solid-primary">Buy Now</button>
+                                <button class="btn btn-icon btn-solid-secondary">
+                                    <img class="btn-icon-img" src="/Assets/icons/btn-cart.svg" alt="icon">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <pre>
+                            <code class="language-html code-snippet">
+                                    &lt;div class="grid grid-25-50-25"&gt;
+                                        &lt;div class="grid-item1"&gt;Box 1&lt;/div&gt;
+                                        &lt;div class="grid-item2"&gt;Box 2&lt;/div&gt;
+                                        &lt;div class="grid-item3"&gt;Box 3&lt;/div&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;div class="grid grid-3-column">
+                                        &lt;div class="card card-vt"&gt;
+                                            .../
+                                        &lt;/div&gt;
+                                        &lt;div class="card card-vt"&gt;
+                                            .../
+                                        &lt;/div&gt;
+                                        &lt;div class="card card-vt"&gt;
+                                            .../
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                            </code>
+                    </pre>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>

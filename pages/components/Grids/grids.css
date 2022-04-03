@@ -1,0 +1,58 @@
+@import url(/css/main.css);
+
+.grids-preview-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    border: 1px solid var(--secondary-faded-color);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.grid{
+    display: grid;
+    min-height: 10rem;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.grid-50-50{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-70-30{
+    grid-template-columns: 70% 30%;
+}
+
+.grid-25-50-25{
+    grid-template-columns: 25% 50% 25%;
+}
+
+.grid-3-column{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--dark-green-color);
+}
+
+.grid-item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-green-color);
+}
+
+.grid-item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--medium-green-color);
+}
