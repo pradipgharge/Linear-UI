@@ -36,23 +36,20 @@
     gap: 10px;
 }
 
-.grid-item1{
+.grid-item{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.grid-item1{
     background-color:var(--dark-green-color);
 }
 
 .grid-item2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--light-green-color);
 }
 
 .grid-item3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--medium-green-color);
 }
