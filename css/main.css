@@ -39,6 +39,8 @@
     --light-font-color:#6B6969;
     --highlight-text-color:#f7e8e8;
     --solid-black-color:#000000;
+    --rating-star-color:#ffa500;
+    --dynamic-rating-default-color:#a3adb9;
 }
 
 .docspage-container {
