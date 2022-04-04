@@ -37,11 +37,14 @@ To use Linear UI components just add the following code in the &lt;head&gt; tag 
 
 11. [Navigation](#navigation)
 
-12. [Slider](#slider)
+12. [Rating](#rating)
 
-13. [Typography](#typography)
+13. [Slider](#slider)
 
 14. [Toast](#toast)
+
+15. [Typography](#typography)
+
 
 ---
 
@@ -166,6 +169,16 @@ You can check the `modal` component here: https://linearui.netlify.app/pages/com
 A navigation is a web page element which has links to different pages of the website to help the user navigate easily.
 
 You can check the `navigation` component here: https://linearui.netlify.app/pages/components/navigation/navigation
+
+---
+
+### Rating
+
+A rating component is used for taking user reviews or feedback, it is mostly used in e-commerce websites. Linear UI has following type of rating components :
+- static rating
+- dynamic rating
+
+You can check the `rating` component here: https://linearui.netlify.app/pages/components/rating/rating
 
 ---
 
