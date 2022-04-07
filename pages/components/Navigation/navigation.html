@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Highlightjs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/night-owl.min.css"
-    integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/pages/components/Navigation/navigation.css">
     <title>Linear UI | Navigation</title>
+    <script src="https://kit.fontawesome.com/6a1746558d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header header-fixed">
         <nav class="nav-container container">
@@ -96,7 +99,8 @@
                 <div class="docs-hero-header">
                     <h1 class="docs-hero-heading">Navigation</h1>
                     <p class="docs-hero-para">
-                        A navigation bar is has links to appropriate sections/pages in a website that helps readers in traversing the online document.
+                        A navigation bar is has links to appropriate sections/pages in a website that helps readers in
+                        traversing the online document.
                     </p>
                 </div>
                 <div class="component-variants">
@@ -105,18 +109,27 @@
                 <div class="navbar-preview-container">
                     <nav class="navbar-basic">
                         <a class="navbar-home">
-                            <img src="/Assets/Icons/btn-home.svg" alt="home icon">
+                            <i class="fas fa-home" aria-hidden="true"></i>
                             <span>Home</span>
                         </a>
                         <ul class="navbar-basic-list">
                             <li class="navbar-item">
-                                <a>Projects</a>
+                                <a>
+                                    <i class="fas fa-project-diagram" aria-hidden="true"></i>
+                                    <span>Projects</span>
+                                </a>
                             </li>
                             <li class="navbar-item">
-                                <a>Blogs</a>
+                                <a>
+                                    <i class="fas fa-blog" aria-hidden="true"></i>
+                                    <span>Blogs</span>
+                                </a>
                             </li>
                             <li class="navbar-item">
-                                <a>About</a>
+                                <a>
+                                    <i class="fas fa-user" aria-hidden="true"></i>
+                                    <span>About</span>
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -151,7 +164,7 @@
                 <div class="navbar-preview-container">
                     <nav class="navbar-basic">
                         <div class="nav-left">
-                            <span class="nav-logo">Logoname</span>
+                            <a href="/" class="nav-logo">Logoname</a>
                             <div class="nav-searchbar">
                                 <button class="btn-searchbar">
                                     <img src="/Assets/Icons/btn-search.svg" alt="search icon">
@@ -200,6 +213,60 @@
                             </code>
                     </pre>
                 </div>
+
+                <div class="component-variants">
+                    <h3 class="component-varaint-heading">Navbar with Hamburger & Submenus</h3>
+                </div>
+                <div class="navbar-preview-container">
+                    <div class="navbar-container">
+                        <nav class="navbar-standard">
+                            <div class="nav-left">
+                                <i class="fas fa-bars ham-icon"></i>
+                                <a href="/">Logoname</a>
+                            </div>
+                            <ul class="nav-right">
+                                <li>
+                                    <i class="fas fa-home" aria-hidden="true"></i>
+                                    <span>Home</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-user" aria-hidden="true"></i>
+                                    <span>About</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-blog" aria-hidden="true"></i>
+                                    <span>Blogs</span>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="drawer-container">
+                            <div class="drawer-header">
+                                <h3 class="drawer-title">Drawer Title</h3>
+                                <h3 class="drawer-close">&times;</h3>
+                            </div>
+                            <div class="drawer-menu">
+                                <a href="/">
+                                    <div class="submenu-title">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Sub menu 1</span>
+                                    </div>
+                                </a>
+                                <a href="/">
+                                    <div class="submenu-title">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <span>Sub menu 1</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div>
+                        <pre>
+                            <code class="language-html code-snippet">
+                            </code>
+                        </pre>
+                    </div>
             </main>
         </div>
     </section>
@@ -209,4 +276,5 @@
         hljs.highlightAll();
     </script>
 </body>
+
 </html>
