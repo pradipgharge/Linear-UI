@@ -12,17 +12,28 @@
     padding: 1rem;
 }
 
-/* Simple navbar styling */
-.navbar-basic {
+.navbar-container {
+    height: 15rem;
+    width: 100%;
+    overflow-y: auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.nav-left {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--primary-text-color);
-    color: var(--tertiary-text-color);
-    width: 40rem;
-    padding: 1rem;
-    border-radius: 6px;
+    gap: 1rem;
+    cursor:pointer
 }
 
 .navbar-standard {
@@ -32,12 +43,11 @@
     align-items: center;
     background-color: var(--primary-text-color);
     color: var(--tertiary-text-color);
+    width: 100%;
     padding: 1rem;
     font-size: 1.1rem;
-    /* border-radius: 6px; */
 }
 
-.navbar-basic a,
 .navbar-standard a {
     cursor: pointer;
     color: var(--tertiary-text-color);
@@ -63,20 +73,11 @@
     padding: 4px 8px;
 }
 
-/* nav with seachbar styling */
-.nav-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.1rem;
-}
-
-
 .nav-searchbar {
     display: flex;
     gap: 10px;
     border: 1px var(--primary-text-color);
-    width: 70%;
+    width: 100%;
     padding: 4px;
     border-radius: 1rem;
     background-color: var(--tertiary-text-color);
@@ -89,38 +90,22 @@
     background: none;
 }
 
-.nav-input {
+.searchbar-input {
     border: none;
     outline: none;
 }
 
-.nav-right {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
-}
-
-.navbar-container {
-    height: 15rem;
-    width: 100%;
-    overflow-y: auto;
-    border: 1px solid black;
-    position: relative;
-}
 
 /* Hamburger Styling */
-
 .drawer-container {
     padding: 1rem;
     width: 12rem;
     height: 100%;
     position: absolute;
     top: 0;
-    left: -250px;
+    left: -200px;
     z-index: 1;
-    background-color: pink;
+    background-color: var(--sidebar-color);
 }
 
 .drawer-header {
@@ -136,7 +121,7 @@
 }
 
 .drawer-close {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     cursor: pointer;
 }
 
@@ -147,21 +132,19 @@
     gap: 1rem
 }
 
-
-.submenu-title {
+.drawer-submenu-title {
     display: flex;
     align-items: center;
     color: var(--primary-text-color);
     gap: 10px;
-
 }
 
-.drawer-trans-on {
+.drawer-transition-on {
     left: 0;
     transition: left 0.5s ease-out;
 }
 
-.drawer-trans-off {
-    left: -225px;
+.drawer-transition-off {
+    left: -200px;
     transition: left 0.5s ease-out;
 }

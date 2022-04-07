@@ -107,7 +107,7 @@
                     <h3 class="component-varaint-heading">Simple navbar</h3>
                 </div>
                 <div class="navbar-preview-container">
-                    <nav class="navbar-basic">
+                    <nav class="navbar-standard">
                         <a class="navbar-home">
                             <i class="fas fa-home" aria-hidden="true"></i>
                             <span>Home</span>
@@ -162,14 +162,14 @@
                     <h3 class="component-varaint-heading">Navbar with search</h3>
                 </div>
                 <div class="navbar-preview-container">
-                    <nav class="navbar-basic">
+                    <nav class="navbar-standard">
                         <div class="nav-left">
                             <a href="/" class="nav-logo">Logoname</a>
                             <div class="nav-searchbar">
                                 <button class="btn-searchbar">
                                     <img src="/Assets/Icons/btn-search.svg" alt="search icon">
                                 </button>
-                                <input type="text" class="nav-input" placeholder="Search products">
+                                <input type="text" class="searchbar-input" placeholder="Search products">
                             </div>
                         </div>
                         <ul class="navbar-basic-list nav-right">
@@ -195,7 +195,7 @@
                                             &lt;button class="btn-searchbar"&gt;
                                                 &lt;img src="/Assets/Icons/btn-search.svg" alt="search icon"&gt;
                                             &lt;/button&gt;
-                                            &lt;input type="text" class="nav-input" placeholder="Search products"&gt;
+                                            &lt;input type="text" class="searchbar-input" placeholder="Search products"&gt;
                                         &lt;/div&gt;
                                     &lt;/div&gt;
                                     &lt;ul class="navbar-basic-list nav-right"&gt;
@@ -246,13 +246,13 @@
                             </div>
                             <div class="drawer-menu">
                                 <a href="/">
-                                    <div class="submenu-title">
+                                    <div class="drawer-submenu-title">
                                         <i class="fa-solid fa-angle-right"></i>
                                         <span>Sub menu 1</span>
                                     </div>
                                 </a>
                                 <a href="/">
-                                    <div class="submenu-title">
+                                    <div class="drawer-submenu-title">
                                         <i class="fa-solid fa-angle-right"></i>
                                         <span>Sub menu 1</span>
                                     </div>
@@ -261,12 +261,73 @@
                         </div>
                     </div>
                 </div>
-                    <div>
-                        <pre>
-                            <code class="language-html code-snippet">
-                            </code>
-                        </pre>
-                    </div>
+                <div>
+                    <pre>
+                        <code class="language-html code-snippet">
+                            &lt;div class="navbar-container"&gt;
+                                &lt;nav class="navbar-standard"&gt;
+                                    &lt;div class="nav-left"&gt;
+                                        &lt;i class="fas fa-bars ham-icon"&gt;&lt;/i&gt;
+                                        &lt;a href="/"&gt;Logoname&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;ul class="nav-right"&gt;
+                                        &lt;li&gt;
+                                            &lt;i class="fas fa-home" aria-hidden="true"&gt;&lt;/i&gt;
+                                            &lt;span&gt;Home&lt;/span&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;i class="fas fa-user" aria-hidden="true"&gt;&lt;/i&gt;
+                                            &lt;span&gt;About&lt;/span&gt;
+                                        &lt;/li&gt;
+                                        &lt;li&gt;
+                                            &lt;i class="fas fa-blog" aria-hidden="true"&gt;&lt;/i&gt;
+                                            &lt;span&gt;Blogs&lt;/span&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/nav&gt;
+                                &lt;div class="drawer-container"&gt;
+                                    &lt;div class="drawer-header"&gt;
+                                        &lt;h3 class="drawer-title"&gt;Drawer Title&lt;/h3&gt;
+                                        &lt;h3 class="drawer-close"&gt;&times;&lt;/h3&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="drawer-menu"&gt;
+                                        &lt;a href="/"&gt;
+                                            &lt;div class="drawer-submenu-title"&gt;
+                                                &lt;i class="fa-solid fa-angle-right"&gt;&lt;/i&gt;
+                                                &lt;span&gt;Sub menu 1&lt;/span&gt;
+                                            &lt;/div&gt;
+                                        &lt;/a&gt;
+                                        &lt;a href="/"&gt;
+                                            &lt;div class="drawer-submenu-title"&gt;
+                                                &lt;i class="fa-solid fa-angle-right"&gt;&lt;/i&gt;
+                                                &lt;span&gt;Sub menu 1&lt;/span&gt;
+                                            &lt;/div&gt;
+                                        &lt;/a&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        </code>
+                    </pre>
+
+                    <span>Javascript</span>
+                    <pre>
+                        <code class="javascript code-snippet">
+                            const btnHamburger = document.querySelector(".ham-icon");
+                            const drawer = document.querySelector(".drawer-container");
+                            const btnClose = document.querySelector(".drawer-close");
+
+                            btnHamburger.addEventListener("click",()=>{
+                                drawer.classList.add("drawer-transition-on");
+                                drawer.classList.remove("drawer-transition-off");
+                            })
+
+                            btnClose.addEventListener("click", ()=>{
+                                drawer.classList.add("drawer-transition-off");
+                                drawer.classList.remove("drawer-transition-on");
+                            })
+                        </code>
+                    </pre>
+                </div>
             </main>
         </div>
     </section>
@@ -275,6 +336,7 @@
     <script>
         hljs.highlightAll();
     </script>
+    <script src="./navigation.js"></script>
 </body>
 
 </html>
