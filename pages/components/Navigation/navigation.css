@@ -12,71 +12,139 @@
     padding: 1rem;
 }
 
-/* Simple navbar styling */
-.navbar-basic{
+.navbar-container {
+    height: 15rem;
+    width: 100%;
+    overflow-y: auto;
+    border: 1px solid var(--solid-black-color);
+    position: relative;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    cursor:pointer
+}
+
+.navbar-standard {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--primary-text-color);
     color: var(--tertiary-text-color);
-    width: 40rem;
+    width: 100%;
     padding: 1rem;
-    border-radius: 6px;
+    font-size: 1.1rem;
 }
 
-.navbar-basic a{
+.navbar-standard a {
     cursor: pointer;
+    color: var(--tertiary-text-color);
 }
 
-.navbar-home{
+.ham-icon {
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.navbar-home {
     display: flex;
     align-items: center;
 }
 
-.navbar-basic-list{
+.navbar-basic-list {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1.1rem;
 }
 
-.navbar-item{
+.navbar-item {
     padding: 4px 8px;
 }
 
-/* nav with seachbar styling */
-.nav-left{
-    flex:1;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-.nav-searchbar{
+.nav-searchbar {
     display: flex;
     gap: 10px;
     border: 1px var(--primary-text-color);
-    width:70%;
+    width: 100%;
     padding: 4px;
     border-radius: 1rem;
     background-color: var(--tertiary-text-color);
 }
 
-.btn-searchbar{
+.btn-searchbar {
     display: flex;
     justify-content: center;
     border: none;
     background: none;
 }
 
-.nav-input{
+.searchbar-input {
     border: none;
-    outline: none;
+    outline: 0;
 }
-.nav-right{
-    flex:1;
+
+
+/* Hamburger Styling */
+.drawer-container {
+    padding: 1rem;
+    width: 12rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -12rem;
+    z-index: 1;
+    background-color: var(--sidebar-color);
+}
+
+.drawer-header {
     display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
-    padding:6px;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+
+}
+
+.drawer-title {
+    color: var(--primary-text-color);
+}
+
+.drawer-close {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.drawer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem
+}
+
+.drawer-submenu-title {
+    display: flex;
+    align-items: center;
+    color: var(--primary-text-color);
+    gap: 10px;
+}
+
+.drawer-transition-on {
+    left: 0;
+    transition: left 0.5s ease-out;
+}
+
+.drawer-transition-off {
+    left: -12rem;
+    transition: left 0.5s ease-out;
 }
