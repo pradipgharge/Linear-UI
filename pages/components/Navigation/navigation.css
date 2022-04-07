@@ -16,7 +16,7 @@
     height: 15rem;
     width: 100%;
     overflow-y: auto;
-    border: 1px solid black;
+    border: 1px solid var(--solid-black-color);
     position: relative;
 }
 
@@ -92,7 +92,7 @@
 
 .searchbar-input {
     border: none;
-    outline: none;
+    outline: 0;
 }
 
 
@@ -103,7 +103,7 @@
     height: 100%;
     position: absolute;
     top: 0;
-    left: -200px;
+    left: -12rem;
     z-index: 1;
     background-color: var(--sidebar-color);
 }
@@ -145,6 +145,6 @@
 }
 
 .drawer-transition-off {
-    left: -200px;
+    left: -12rem;
     transition: left 0.5s ease-out;
 }
