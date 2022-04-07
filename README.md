@@ -23,23 +23,28 @@ To use Linear UI components just add the following code in the &lt;head&gt; tag 
 
 4. [Button](#buttons)
 
-5. [Cards](#cardscard)
+5. [Cards](#cards)
 
-6. [Image](#imagesimage)
+6. [Grid](#grids)
 
-7. [Input](#inputs)
+7. [Image](#images)
 
-8. [Lists](#lists)
+8. [Input](#inputs)
 
-9. [Modal](#modal)
+9. [Lists](#lists)
 
-10. [Navigation](#navigation)
+10. [Modal](#modal)
 
-11. [Slider](#slider)
+11. [Navigation](#navigation)
 
-12. [Typography](#typographytypography)
+12. [Rating](#rating)
 
-13. [Toast](#toast)
+13. [Slider](#slider)
+
+14. [Toast](#toast)
+
+15. [Typography](#typography)
+
 
 ---
 
@@ -93,7 +98,7 @@ You can check the `button` component here : https://linearui.netlify.app/pages/c
 
 ### Cards
 
-Card components is used to group a set of information into a container which can be used throughout your website. Linear UI has following types of buttons: 
+Card components is used to group a set of information into a container which can be used throughout your website. Linear UI has following types of cards: 
 - Basic cards
 - Vertical cards
 - Horizontal cards
@@ -103,6 +108,16 @@ Card components is used to group a set of information into a container which can
 - Card with a dismiss button
 
 You can check the `card` component here : https://linearui.netlify.app/pages/components/cards/cards
+
+---
+
+### Grids
+
+Grids are used for building responsive layouts making it easier to design web pages without having to use floats and positioning. Linear UI has following types of grids: 
+- Two column grids
+- Three column grids
+
+You can check the `grid` component here : https://linearui.netlify.app/pages/components/grids/grids
 
 ---
 
@@ -157,11 +172,31 @@ You can check the `navigation` component here: https://linearui.netlify.app/page
 
 ---
 
+### Rating
+
+A rating component is used for taking user reviews or feedback, it is mostly used in e-commerce websites. Linear UI has following type of rating components :
+- static rating
+- dynamic rating
+
+You can check the `rating` component here: https://linearui.netlify.app/pages/components/rating/rating
+
+---
+
 ### Slider
 
 A range slider is an input field that users can use to select a numeric value within a given range (minimum and maximum values).
 
 You can check the `slider` component here: https://linearui.netlify.app/pages/components/slider/slider
+
+---
+
+### Toast
+
+Toasts are intended to provide feedback to a user and self-dismiss after a short time with an option to self-dismiss. Linear UI has following type of toasts :
+- Simple Toasts
+- Toasts with buttons
+
+You can check more about the `toasts` here : https://linearui.netlify.app/pages/components/toast/toast
 
 ---
 
@@ -178,16 +213,6 @@ Typography describes the creative design of the text on your web pages. Linear U
    - gray text
 
 You can check the `typography` component here : https://linearui.netlify.app/pages/components/typography/typography
-
----
-
-### Toast
-
-Toasts are intended to provide feedback to a user and self-dismiss after a short time with an option to self-dismiss. Linear UI has following type of toasts :
-- Simple Toasts
-- Toasts with buttons
-
-You can check more about the `toasts` here : https://linearui.netlify.app/pages/components/toast/toast
 
 ---
 
